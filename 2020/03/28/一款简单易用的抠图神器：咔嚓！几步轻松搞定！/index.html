@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>一款简单易用的抠图神器：咔嚓！几步轻松搞定！ | Hugo</title><meta name="description" content="一款简单易用的抠图神器：咔嚓！几步轻松搞定！"><meta name="keywords" content="PS,美化图片"><meta name="author" content="Hugo"><meta name="copyright" content="Hugo"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="一款简单易用的抠图神器：咔嚓！几步轻松搞定！"><meta name="twitter:description" content="一款简单易用的抠图神器：咔嚓！几步轻松搞定！"><meta name="twitter:image" content="http://d.ifengimg.com/w480/img1.ugc.ifeng.com/newugc/20180607/21/wemedia/e6e7cd0ef11d621b2f473f16bb370a2071dbe1a0_size27_w533_h331.jpg"><meta property="og:type" content="article"><meta property="og:title" content="一款简单易用的抠图神器：咔嚓！几步轻松搞定！"><meta property="og:url" content="https://hugoyzc.github.io/2020/03/28/%E4%B8%80%E6%AC%BE%E7%AE%80%E5%8D%95%E6%98%93%E7%94%A8%E7%9A%84%E6%8A%A0%E5%9B%BE%E7%A5%9E%E5%99%A8%EF%BC%9A%E5%92%94%E5%9A%93%EF%BC%81%E5%87%A0%E6%AD%A5%E8%BD%BB%E6%9D%BE%E6%90%9E%E5%AE%9A%EF%BC%81/"><meta property="og:site_name" content="Hugo"><meta property="og:description" content="一款简单易用的抠图神器：咔嚓！几步轻松搞定！"><meta property="og:image" content="http://d.ifengimg.com/w480/img1.ugc.ifeng.com/newugc/20180607/21/wemedia/e6e7cd0ef11d621b2f473f16bb370a2071dbe1a0_size27_w533_h331.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://hugoyzc.github.io/2020/03/28/%E4%B8%80%E6%AC%BE%E7%AE%80%E5%8D%95%E6%98%93%E7%94%A8%E7%9A%84%E6%8A%A0%E5%9B%BE%E7%A5%9E%E5%99%A8%EF%BC%9A%E5%92%94%E5%9A%93%EF%BC%81%E5%87%A0%E6%AD%A5%E8%BD%BB%E6%9D%BE%E6%90%9E%E5%AE%9A%EF%BC%81/"><link rel="next" title="【科.学.上.网】最新分享" href="https://hugoyzc.github.io/2020/03/24/%E3%80%90%E7%A7%91-%E5%AD%A6-%E4%B8%8A-%E7%BD%91%E3%80%91%E6%9C%80%E6%96%B0%E5%88%86%E4%BA%AB/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://hugoyzc.github.io/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"Press","message_next":"to bookmark this page"},"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Hugo" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">5</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#"><span class="toc-number">1.</span> <span class="toc-text"></span></a></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="post-bg" id="nav" style="background-image: url(http://d.ifengimg.com/w480/img1.ugc.ifeng.com/newugc/20180607/21/wemedia/e6e7cd0ef11d621b2f473f16bb370a2071dbe1a0_size27_w533_h331.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Hugo</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">一款简单易用的抠图神器：咔嚓！几步轻松搞定！</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-03-28<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-03-28</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/PC/">PC</a></span><div class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>Word count:</span><span class="word-count">913</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>Reading time: 2 min</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><p>说到抠图大家必然第一反应是PS，是的，照片处理没有任何一款软件的综合素质可以超越PS，就算有也只可能是Adobe Photoshop 2020。</p>
+<p>虽然说综合素质比不过，挑一个单项出来比一下还是可以的嘛。比如有的软件就专注于抠图，并在行业里领先了！</p>
+<p>!今天要推荐的这款神器，专注于抠图，名字叫做PhotoScissors，按照字面意思翻译，就是“照片剪刀”。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/2073671696214832bce9035a37031086"></p>
+<p>当然当然不是像上图这样的剪刀，而是抠图，把画面中的一部分抠出来。</p>
+<hr>
+<blockquote>
+<p><strong>基础篇</strong></p>
+</blockquote>
+<p>打开软件就有最基本的教程，绿色是前景，红色是背景。是个靓仔都知道红色部分肯定是要被删掉的。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/cf581027479649bdaedbe306e9d53c7f"></p>
+<p>点击【查看教程】会跳转到官方给出的使用文档，不过是全英文，要配合翻译使用。</p>
+<p>下面给大家演示一下最简单的抠图功能，随便打开一张图片软件会快速分析背景并删除背景抠出主体。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/4bba9298721941f9acbf42b7ad15a2ab"></p>
+<p>当然，自动抠图可能会有一些小误差，手动调整一下即可（点开查看大图注释）。比如图中女星两腿之间的部分……</p>
+<p>最后保存，就可以看到女星已经被抠出来了，总体来说效果还是可以的，对于普通人来说纯色背景的证件照换底肯定是够用的了。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/07dc402f47be4321b5283f2117ee37d5"></p>
+<p>这只是最基本的抠图，但是如果仅仅是这样的抠图完全可以用国内的一些在线网站，真的没有必要还要找这样一款软件。</p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><blockquote>
+<p><strong>进阶篇</strong></p>
+</blockquote>
+<p>来看看官网（<a href="https://photoscissors.com/tutorials?v=5）还给了哪些教程，使用Google翻译，个别字词略有偏差大家自己理解一下。" target="_blank" rel="noopener">https://photoscissors.com/tutorials?v=5）还给了哪些教程，使用Google翻译，个别字词略有偏差大家自己理解一下。</a></p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/fe65dee29ff9478db56d165e95711d9b"></p>
+<p>总结一下，这些其实就是让你抠图抠的更精准处理出更精美的图片。精准抠图的一个典型的例子就是抠头发丝，相信很多人都遇到过这个问题。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/8fe8779d5f8040e1aa916f6c607a00b3"></p>
+<p>这个效果肯定是不行的，就需要用到软件的一个叫做【透明抠图】的功能。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/93c5aac166f740f799de3e34ac97feda"></p>
+<p>这样头发就抠出来了，大家看左侧原图的笔刷颜色就可以了，经过测试其实绿色和红色笔刷是完全多余的。</p>
+<p>此外，透明抠图最NB的地方在于细节处理，众所周知，P图最重要的一定是细节。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/6ed8530abe314d21b169ade4ea68f78c"></p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/3175f03aadc84576ab08af645bf2584b"></p>
+<p>仔细看，玻璃球的背景你就会发现它是可以透过不同的背景的，这就是透明抠图。</p>
+<p>除了人像，我们最多拍的就是风景，可能是动植物，山川大河等。这时候抠图就需要我们调节平滑，偏移，羽化等参数。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/fc0a528705d84caca7f1e1eeaef36af4"></p>
+<p>比如这只鸟，浑身都是不规则的毛，就需要把轮廓调的平滑一些，再调整偏移。依旧以人像为例，调节了平滑和偏移仔细看轮廓线是有一些变化的。</p>
+<p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/e2c73f7bca6f4a47bcd47cba7a7c5436"></p>
+<p>主要的功能，就介绍到这，毕竟人家主打的也就是抠图，那些商品图以及和PS配合的遮罩什么的还是交给PS去做吧。</p>
+<p>总体来说，这款软件工具属性很强，自动化能力也很强。如果你需要简单易学的抠图工具，不妨试试这款神器吧！对于参数调节，大家多使用使用，才能更加熟悉。</p>
+<p><strong>下载地址</strong></p>
+<p><strong>蓝奏云：</strong> <a href="https://www.lanzous.com/iaqljqh" target="_blank" rel="noopener">https://www.lanzous.com/iaqljqh</a></p>
+<p>原文链接：  <a href="https://www.toutiao.com/i6809211567930868237/" target="_blank" rel="noopener">一款简单易用的抠图神器：咔嚓！几步轻松搞定！</a></p>
+<hr>
+<p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Hugo</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://hugoyzc.github.io/2020/03/28/%E4%B8%80%E6%AC%BE%E7%AE%80%E5%8D%95%E6%98%93%E7%94%A8%E7%9A%84%E6%8A%A0%E5%9B%BE%E7%A5%9E%E5%99%A8%EF%BC%9A%E5%92%94%E5%9A%93%EF%BC%81%E5%87%A0%E6%AD%A5%E8%BD%BB%E6%9D%BE%E6%90%9E%E5%AE%9A%EF%BC%81/">https://hugoyzc.github.io/2020/03/28/一款简单易用的抠图神器：咔嚓！几步轻松搞定！/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/PS/">PS    </a><a class="post-meta__tags" href="/tags/%E7%BE%8E%E5%8C%96%E5%9B%BE%E7%89%87/">美化图片    </a></div><div class="post_share"><div class="social-share" data-image="http://d.ifengimg.com/w480/img1.ugc.ifeng.com/newugc/20180607/21/wemedia/e6e7cd0ef11d621b2f473f16bb370a2071dbe1a0_size27_w533_h331.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/03/24/%E3%80%90%E7%A7%91-%E5%AD%A6-%E4%B8%8A-%E7%BD%91%E3%80%91%E6%9C%80%E6%96%B0%E5%88%86%E4%BA%AB/"><img class="next_cover lazyload" data-src="https://img.anfensi.com/upload/2018-7/20187111315435117.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">【科.学.上.网】最新分享</div></div></a></div></nav></article></main><footer id="footer" style="background-image: url(http://d.ifengimg.com/w480/img1.ugc.ifeng.com/newugc/20180607/21/wemedia/e6e7cd0ef11d621b2f473f16bb370a2071dbe1a0_size27_w533_h331.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Hugo</div><div class="theme-info"><div class="powered-by"></div></div><img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png">
+<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener">粤ICP备14057991号</a> 
+<p><b>Hosted by
+<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral/" target="_blank" rel="noopener">
+<img src="https://leotian.cn/images/upyun_logo.min.svg" style="width: 90px; display: inline; vertical-align: middle;" ></a>
+</div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="Read Mode"></i><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion" target="_self">簡</a><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300,"opacity":0.7},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html><!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
