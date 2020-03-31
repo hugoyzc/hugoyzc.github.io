@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hugoyzc.github.io/"/>
-  <updated>2020-03-28T16:18:04.495Z</updated>
+  <updated>2020-03-31T10:57:18.703Z</updated>
   <id>https://hugoyzc.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>牛逼的油猴脚本！一键美化、下载国内的最火视频网站</title>
+    <link href="https://hugoyzc.github.io/2020/03/31/%E7%89%9B%E9%80%BC%E7%9A%84%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%EF%BC%81%E4%B8%80%E9%94%AE%E7%BE%8E%E5%8C%96%E3%80%81%E4%B8%8B%E8%BD%BD%E5%9B%BD%E5%86%85%E7%9A%84%E6%9C%80%E7%81%AB%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99/"/>
+    <id>https://hugoyzc.github.io/2020/03/31/%E7%89%9B%E9%80%BC%E7%9A%84%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%EF%BC%81%E4%B8%80%E9%94%AE%E7%BE%8E%E5%8C%96%E3%80%81%E4%B8%8B%E8%BD%BD%E5%9B%BD%E5%86%85%E7%9A%84%E6%9C%80%E7%81%AB%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99/</id>
+    <published>2020-03-31T10:39:48.000Z</published>
+    <updated>2020-03-31T10:57:18.703Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>bilibili哔哩哔哩</strong>，也就是大家常说的B站，无疑是国内最火的视频网站之一。B站拥有动画、游戏娱乐、影视作品等多种视频资源，但官方并未提供视频下载的入口。</p><p>今天 <strong>Hugo</strong> 就给大家带来非常强大的B站视频下载工具——油猴脚本<strong>Bilibili Evolved</strong>。</p><p>相信有部分小伙伴还没有安装油猴插件的，这里再补充介绍一下，如何安装油猴插件。</p><h1 id="安装油猴脚本"><a href="#安装油猴脚本" class="headerlink" title="安装油猴脚本"></a><strong>安装油猴脚本</strong></h1><p>首先还是推荐大家使用谷歌浏览器，然后<strong>安装油猴脚本</strong>—Tampermonkey，俗称“油猴子”，是一款免费的浏览器扩展和用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。</p><p>油猴脚本可以自由定制网页，实现你想要的各种功能。比如自由定制网站页面、去除广告、下载网盘文件、破解某些VIP限制等一系列强大的功能。</p><p>油猴脚本的安装步骤很简单，下面以谷歌浏览器为例。首先访问油猴子插件官网：<a href="http://tampermonkey.net/，进入后如下：" target="_blank" rel="noopener">http://tampermonkey.net/，进入后如下：</a></p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/56aaec8255084acab9abe0b2d6a14a59"></p><p>需要注意的是官网的链接是直接到谷歌插件商店下载，需要FQ，不方便FQ的网友，<strong>Hugo</strong> 提供了直接下载链接，可以在文末下载。</p><p>安装好了油猴插件，那么我们就可以安装<strong>Bilibili Evolved</strong>脚本了。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/9d380e29ec09433b9aaacec8ce294f84"></p><p>打开文末提供的下载地址，点击安装此脚本即可。</p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a><strong>使用方法</strong></h1><p>1、打开B站视频播放页面，此时可以看到，浏览器工具栏上的油猴插件菜单会显示Bilibili Evolved脚本已自动启用。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/82044582333e400193f05f500abc8d4c"></p><p>2、在网站的左侧边缘，可以看到两个半隐藏的按钮，它们分别是Bilibili Evolved的功能菜单按钮和设置按钮。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/1619fcad15c846e8a8dd044e830371e9"></p><p>点击功能菜单按钮，就可以直接对当前视频进行各种操作了，比如下载视频、弹幕、封面大图。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/39c4868dd49b4ae3b2fec025cc9f7785"></p><p>以【<strong>下载视频</strong>】为例，点击该选项，页面上会弹出一个单独的下载框，可以预览视频的文件大小、格式、选择清晰度、弹幕等等，当然也是能够进行<strong>批量下载</strong>的。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/c142d567bad04dafb78ee30fc0d0fdee"></p><p>再以【<strong>顶栏布局</strong>】功能为例，在这个弹出窗口中，可以轻松对B站网页样式进行修改。比如设定两侧边缘处的间距、隐藏顶栏的工具按钮，或对它们进行拖拽排序。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/4c89f825b83f4a86a5ad88345cfae24b"></p><p>打开<strong>设置按钮</strong>，可以看到除了下载B站视频以外，Bilibili Evolved上提供的更多更强大的辅助功能。光是以视频播放辅助为例，功能就多达十几项，大家可以自行体验。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/96e3915889fb4406a8e6ca72e103e40e"></p><p>此外，还能在【<strong>样式</strong>】中调整夜间模式、模糊背景等操作。</p><p><img src="/" alt="牛逼的油猴脚本！一键美化、下载国内的最火视频网站" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/f7ed8f4ba18b4e10b2d3ee652ee562df"></p><p><strong>总而言之</strong>，Bilibili Evolved这个脚本是真的非常强大，功能多到令你难以想象。而且操作起来也非常简单，就是简单地单击相应功能的开关按钮就可以了。</p><p>它的UI界面也与B站十分适配，看起来就跟B站的原生功能一样，操作起来也很流畅。</p><h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a><strong>下载地址</strong></h2><p>油猴链接</p><p><a href="https://www.lanzous.com/b03ydsmsj" target="_blank" rel="noopener">https://www.lanzous.com/b03ydsmsj</a></p><p>脚本地址</p><p><a href="https://greasyfork.org/scripts/373563-bilibili-evolved" target="_blank" rel="noopener">https://greasyfork.org/scripts/373563-bilibili-evolved</a></p><p><strong>原文链接</strong>：  <a href="https://mp.weixin.qq.com/s/eCU4VGr_ONwzJ8TC9BRS1g" target="_blank" rel="noopener">牛逼的油猴脚本！！一键美化、下载国内的最火视频网站</a></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;bilibili哔哩哔哩&lt;/strong&gt;，也就是大家常说的B站，无疑是国内最火的视频网站之一。B站拥有动画、游戏娱乐、影视作品等多种视频资源，但官方并未提供视频下载的入口。&lt;/p&gt;
+&lt;p&gt;今天 &lt;strong&gt;Hugo&lt;/strong&gt; 就给大家带来非常强
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="浏览器优化" scheme="https://hugoyzc.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%98%E5%8C%96/"/>
+    
+      <category term="下载" scheme="https://hugoyzc.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>一款简单易用的抠图神器：咔嚓！几步轻松搞定！</title>
