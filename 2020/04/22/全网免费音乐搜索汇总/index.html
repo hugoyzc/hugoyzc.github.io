@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全网免费音乐搜索汇总 | Hugo</title><meta name="description" content="全网免费音乐搜索汇总"><meta name="keywords" content="音乐搜索"><meta name="author" content="Hugo"><meta name="copyright" content="Hugo"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="全网免费音乐搜索汇总"><meta name="twitter:description" content="全网免费音乐搜索汇总"><meta name="twitter:image" content="https://tva1.sinaimg.cn/large/6f8a2832gy1g99gu5d215j21hc0xcnbz.jpg"><meta property="og:type" content="article"><meta property="og:title" content="全网免费音乐搜索汇总"><meta property="og:url" content="https://hugoyzc.github.io/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/"><meta property="og:site_name" content="Hugo"><meta property="og:description" content="全网免费音乐搜索汇总"><meta property="og:image" content="https://tva1.sinaimg.cn/large/6f8a2832gy1g99gu5d215j21hc0xcnbz.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://hugoyzc.github.io/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/"><link rel="next" title="安卓影视 APP 汇总" href="https://hugoyzc.github.io/2020/04/22/%E5%AE%89%E5%8D%93%E5%BD%B1%E8%A7%86%20APP%20%E6%B1%87%E6%80%BB/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"Press","message_next":"to bookmark this page"},"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Hugo" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">19</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#免费音乐下载大全展开目录"><span class="toc-number">1.</span> <span class="toc-text">免费音乐下载大全展开目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#无损音乐下载软件展开目录"><span class="toc-number">2.</span> <span class="toc-text">无损音乐下载软件展开目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#免费音乐搜索大全展开目录"><span class="toc-number">3.</span> <span class="toc-text">免费音乐搜索大全展开目录</span></a></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="post-bg" id="nav" style="background-image: url(https://tva1.sinaimg.cn/large/6f8a2832gy1g99gu5d215j21hc0xcnbz.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Hugo</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">全网免费音乐搜索汇总</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-04-22<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-04-22</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E9%9F%B3%E4%B9%90%E4%B8%8B%E8%BD%BD/">音乐下载</a></span><div class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>Word count:</span><span class="word-count">637</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>Reading time: 2 min</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>
+<p>免费音乐搜索下载网站，这里分享的网站均来自<strong>网友推荐</strong>及<strong>搜索引擎</strong></p>
+<p>请使用 <strong>正版音乐平台</strong>，以下网站仅供测试用途。</p>
+<h2 id="免费音乐下载大全展开目录"><a href="#免费音乐下载大全展开目录" class="headerlink" title="免费音乐下载大全展开目录"></a>免费音乐下载大全展开目录</h2><blockquote>
+<p>推荐：墨灵音乐，网址：<a href="https://music.qugeek.com/" target="_blank" rel="noopener">https://music.qugeek.com/</a></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>「推荐」墨灵音乐</th>
+<th><a href="https://music.qugeek.com/" target="_blank" rel="noopener">戳我直达→</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>海量音乐搜索，试听，下载</td>
+<td>无广告，无需注册登陆，完全免费</td>
+</tr>
+<tr>
+<td>在线白噪音，转码，编辑 MP3 标签，FM</td>
+<td>支持部分音乐无损下载</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>网易云音乐、QQ 音乐、咪咕音乐 (可播放 vip、下架歌曲)</p>
+</blockquote>
+<ul>
+<li><a href="http://music.jsososo.com/" target="_blank" rel="noopener">http://music.jsososo.com/</a></li>
+<li><a href="http://tool.liumingye.cn/music/" target="_blank" rel="noopener">http://tool.liumingye.cn/music/</a></li>
+</ul>
+<blockquote>
+<p>下方网站基于<code>麦聪音乐搜索器</code>搭建的网站：支持十多种主流音乐平台搜索试听下载。</p>
+</blockquote>
+<ul>
+<li><a href="http://music.uixsj.cn/" target="_blank" rel="noopener">http://music.uixsj.cn</a></li>
+<li><a href="http://www.lxh5068.com/music" target="_blank" rel="noopener">http://www.lxh5068.com/music</a></li>
+<li><a href="http://www.xieqian.vip/music" target="_blank" rel="noopener">http://www.xieqian.vip/music</a></li>
+</ul>
+<blockquote>
+<p>下方网站基于 <code>mkonlineplayer</code> 搭建的在线音乐播放器，支持主流音乐平台搜索试听下载。</p>
+</blockquote>
+<ul>
+<li><a href="https://music.9iqu.cn/" target="_blank" rel="noopener">https://music.9iqu.cn</a></li>
+<li><a href="https://music.postgraduate.top/" target="_blank" rel="noopener">https://music.postgraduate.top</a></li>
+<li><a href="https://www.xcbkb.com/music" target="_blank" rel="noopener">https://www.xcbkb.com/music</a></li>
+<li><a href="http://vip.xcsee.cn/music" target="_blank" rel="noopener">http://vip.xcsee.cn/music</a></li>
+<li><a href="http://ayy.ayxhk.com/" target="_blank" rel="noopener">http://ayy.ayxhk.com</a></li>
+<li><a href="http://vip.xcsee.cn/music" target="_blank" rel="noopener">http://vip.xcsee.cn/music</a></li>
+<li><a href="http://tool.yiixue.com/Tools/mk_music" target="_blank" rel="noopener">http://tool.yiixue.com/Tools/mk_music</a></li>
+</ul>
+<blockquote>
+<p>不错的音乐在线试听网站，将 QQ 音乐、网易云音乐和虾米音乐上的歌添加到一个列表来播放</p>
+</blockquote>
+<ul>
+<li><a href="http://tongzhong.xyz/" target="_blank" rel="noopener">http://tongzhong.xyz</a></li>
+<li><a href="http://mini.tongzhong.xyz/" target="_blank" rel="noopener">http://mini.tongzhong.xyz</a></li>
+</ul>
+<h2 id="无损音乐下载软件展开目录"><a href="#无损音乐下载软件展开目录" class="headerlink" title="无损音乐下载软件展开目录"></a>无损音乐下载软件展开目录</h2><blockquote>
+<p>洛雪播放器</p>
+</blockquote>
+<p>可以下载网易云音乐 / QQ 音乐 / 咪咕音乐 / 酷狗音乐 / 酷我音乐 支持 Windows、Mac</p>
+<p><strong>高速下载</strong></p>
+<p><a href="https://lanzous.com/b906260/" target="_blank" rel="noopener"> <strong>密码：<code>glqw</code></strong></a></p>
+<blockquote>
+<p>MOO 音乐</p>
+</blockquote>
+<p>支持 iOS、安卓，腾讯出品，共享 QQ 音乐版权，每天听歌自动送 VIP 手机必备的听歌神器</p>
+<p><a href="https://moo.qq.com/" target="_blank" rel="noopener"> <strong>下载</strong></a></p>
+<blockquote>
+<p>QMD 安卓无损音乐下载</p>
+</blockquote>
+<p>可以下载 QQ 音乐支持高品质 320k 及无损音质音乐下载，不支持付费专辑。</p>
+<p><strong>高速下载</strong></p>
+<p><a href="https://lanzous.com/i9smvrc" target="_blank" rel="noopener"> <strong>下载</strong></a></p>
+<blockquote>
+<p>音乐侠安卓无损音乐下载</p>
+</blockquote>
+<p>支持高品质 320k 及无损音质音乐下载，不支持付费专辑。</p>
+<p><strong>高速下载</strong></p>
+<p><a href="https://lanzous.com/i9sn3le" target="_blank" rel="noopener"> <strong>下载</strong></a></p>
+<blockquote>
+<p>音乐免费下载：国外免费音乐下载神器，支持中文搜索，搜索速度快音乐全。</p>
+</blockquote>
+<p><a href="https://hao.su/1906/" target="_blank" rel="noopener">Youtube 音乐下载</a>、<a href="https://hao.su/2025/" target="_blank" rel="noopener">Youtube To mp3 Api</a></p>
+<h2 id="免费音乐搜索大全展开目录"><a href="#免费音乐搜索大全展开目录" class="headerlink" title="免费音乐搜索大全展开目录"></a>免费音乐搜索大全展开目录</h2><blockquote>
+<p>mmplayer 在线音乐播放器：ui 美观，支持网易音乐</p>
+</blockquote>
+<ul>
+<li><a href="https://www.postgraduate.top/app.php/music" target="_blank" rel="noopener">https://www.postgraduate.top/app.php/music</a></li>
+<li><a href="http://music.mtnhao.com/" target="_blank" rel="noopener">http://music.mtnhao.com/</a></li>
+</ul>
+<blockquote>
+<p>摩声音乐搜索：搜索歌曲速度很快，支持网易云、QQ、虾米、酷狗、百度免费搜索试听下载。</p>
+</blockquote>
+<p><a href="http://moresound.tk/music/" target="_blank" rel="noopener">http://moresound.tk/music/</a></p>
+<blockquote>
+<p>解锁网易云音乐灰色链接</p>
+</blockquote>
+<p><a href="https://github.com/nondanee/UnblockNeteaseMusic" target="_blank" rel="noopener">https://github.com/nondanee/UnblockNeteaseMusic</a></p>
+<p>收藏：<a href="https://hao.su/music" target="_blank" rel="noopener">音乐搜索神器</a> 可以快速直达本页。</p>
+<hr>
+<p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Hugo</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://hugoyzc.github.io/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/">https://hugoyzc.github.io/2020/04/22/全网免费音乐搜索汇总/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2/">音乐搜索    </a></div><div class="post_share"><div class="social-share" data-image="https://tva1.sinaimg.cn/large/6f8a2832gy1gdkr42vhufj21hc0u0th5.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/04/22/%E5%AE%89%E5%8D%93%E5%BD%B1%E8%A7%86%20APP%20%E6%B1%87%E6%80%BB/"><img class="next_cover lazyload" data-src="https://tva1.sinaimg.cn/large/6f8a2832gy1gdkr42vhufj21hc0u0th5.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">安卓影视 APP 汇总</div></div></a></div></nav></article></main><footer id="footer" style="background-image: url(https://tva1.sinaimg.cn/large/6f8a2832gy1g99gu5d215j21hc0xcnbz.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Hugo</div><div class="theme-info"><div class="powered-by"></div></div><img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png">
+<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener">粤ICP备14057991号</a> 
+<p><b>Hi, welcome to my <a href="https://hugoyzc,github.io/" target="_blank" rel="noopener">blog</a>!
+</div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300,"opacity":0.7},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html><!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
