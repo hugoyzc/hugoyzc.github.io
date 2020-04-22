@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hugoyzc.github.io/"/>
-  <updated>2020-04-22T03:51:42.192Z</updated>
+  <updated>2020-04-22T04:40:37.605Z</updated>
   <id>https://hugoyzc.github.io/</id>
   
   <author>
@@ -17,11 +17,94 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>goimg：智能图像压缩</title>
+    <link href="https://hugoyzc.github.io/2020/04/22/goimg%EF%BC%9A%E6%99%BA%E8%83%BD%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9/"/>
+    <id>https://hugoyzc.github.io/2020/04/22/goimg%EF%BC%9A%E6%99%BA%E8%83%BD%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9/</id>
+    <published>2020-04-22T04:38:21.000Z</published>
+    <updated>2020-04-22T04:40:37.605Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/" alt="https://i.loli.net/2017/08/24/599e5fe500177.png" class="lazyload" data-src="https://tva2.sinaimg.com/large/6f8a2832gy1fiuqiwbq7lj20wb0ao74d.jpg"></p><h2 id="智能图像压缩"><a href="#智能图像压缩" class="headerlink" title="智能图像压缩"></a>智能图像压缩</h2><p>为图像文件瘦身，让你的图片加载飞快！ 图片压缩速度确实挺快，不需要做多余设置，只需要选择文件上传 goimg 会根据深度学习引擎自动压缩图片为你自动压缩图片，然后点击下载即可。</p><p><a href="https://goimg.io/" target="_blank" rel="noopener">https://goimg.io/</a></p><h2 id="极致的压缩效果"><a href="#极致的压缩效果" class="headerlink" title="极致的压缩效果"></a>极致的压缩效果</h2><p>使用聪明的有损压缩技术来减少你的 PNG、JPG、GIF 文件的存储大小。通过深度学习的图像识别，来选择性地减少图像中的颜色数，在减少图片体积达到极限的同时，让肉眼几乎看不出与原图的差异！</p><blockquote><p>如何压缩图片？</p></blockquote><p>把需要压缩的图片文件拖放至屏幕任意位置，即可上传压缩图片。压缩完成后将文件存入计算机或你的移动设备中，全部过程仅此 1 步。<br>压缩品质</p><p>Goimg 的图片压缩引擎能够将图片文件的字节减少 75% 左右的平均值，而且肉眼几乎无法看出与原图的差异，质量及文件大小都堪称完美。</p><blockquote><p>文件的安全和隐私</p></blockquote><p>当你的图片压缩完成的 60 分钟后，将会永久从 Goimg 网站的服务器删除。同时文件链接即失效，100% 保障你的隐私。<br>支持所有操作系统</p><p>使用用聪明的有损压缩算法，基于图形识别和深度学习，来选择性的进行压缩，不对图片进行格式破坏，与原图保持一致的适用性。</p><blockquote><p>云端压缩引擎</p></blockquote><p>Goimg 基于浏览器运行，整个压缩过程在服务器端进行，不会降低计算机的运行速度。只要保证你的计算机有基础的网络连接状态即可。</p><blockquote><p>最适合谁用？</p></blockquote><p>UI 设计师、平面设计师、客户端 / 前端开发工程师必备！编辑、摄影师、网店、个人博客… 一切完美主义注重细节品质的创作者。</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/&quot; alt=&quot;https://i.loli.net/2017/08/24/599e5fe500177.png&quot; class=&quot;lazyload&quot; data-src=&quot;https://tva2.sinaimg.com/large/6f8a2832gy1f
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在线图片压缩网站</title>
+    <link href="https://hugoyzc.github.io/2020/04/22/%E5%9C%A8%E7%BA%BF%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E7%BD%91%E7%AB%99/"/>
+    <id>https://hugoyzc.github.io/2020/04/22/%E5%9C%A8%E7%BA%BF%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E7%BD%91%E7%AB%99/</id>
+    <published>2020-04-22T04:35:11.000Z</published>
+    <updated>2020-04-22T04:37:57.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>惊人的图片压缩网站 <a href="https://zh.recompressor.com/" target="_blank" rel="noopener">recompressor</a>，在线 svg、png、jpg 图片压缩</p><p><a href="https://imgbot.ai/" target="_blank" rel="noopener">imgbot.ai</a> 可以批量图像处理。在线调整大小，裁剪，压缩图像或为照片添加水印。</p><p><a href="https://www.picdiet.com/zh-cn" target="_blank" rel="noopener">picdiet.com</a> 是一款在线批量压缩图片神器，它不需要后端服务器或者 API 的支持，仅通过你的浏览器来压缩图片大小，这意味着它压缩图片极快并且不会导致隐私或敏感图片泄漏。</p><p><a href="https://tool.tanpok.com/" target="_blank" rel="noopener">tanpok 图片压缩</a>基于浏览器提供的压缩功能，并不通过服务器，所以压缩速度很快。实际测试压缩比例也还不错。</p><p><a href="https://tiomg.org/compress-image" target="_blank" rel="noopener">太美工具箱图片压缩工具</a> 智能化的图片压缩，支持 PNG/GIF/JPG 图片压缩。</p><p><a href="http://www.secaibi.com/tools/" target="_blank" rel="noopener">色彩笔</a>是一个免费的在线图片压缩小工具，可以非常方便得将 PNG/GIF/JPG 图片大小优化到极限，为移动设备（如：手机平版）访问节约数据流量，提高访问速度。简洁又漂亮的界面响应处理速度极快，并且支持多个文件批量上传。依赖专业专业算法支持，在图片体积大大减小后，仍能让清晰度保持和原版一样。</p><p><a href="https://goimg.io/" target="_blank" rel="noopener">goimg：智能图像压缩</a>极致的压缩效果，使用聪明的有损压缩技术来减少你的 PNG、JPG、GIF 文件的存储大小。通过深度学习的图像识别，来选择性地减少图像中的颜色数，在减少图片体积达到极限的同时，让肉眼几乎看不出与原图的差异！<a href="https://hao.su/1391/" target="_blank" rel="noopener">使用方法</a></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;惊人的图片压缩网站 &lt;a href=&quot;https://zh.recompressor.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;recompressor&lt;/a&gt;，在线 svg、png、jpg 图片压缩&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在线临时邮箱</title>
+    <link href="https://hugoyzc.github.io/2020/04/22/%E5%9C%A8%E7%BA%BF%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1/"/>
+    <id>https://hugoyzc.github.io/2020/04/22/%E5%9C%A8%E7%BA%BF%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1/</id>
+    <published>2020-04-22T04:28:38.000Z</published>
+    <updated>2020-04-22T04:32:02.475Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>9em</p></blockquote><p><a href="https://9em.org/" target="_blank" rel="noopener">https://9em.org</a></p><p>9em.org 来自不死鸟微信群内大佬，这是一个 10 分钟邮箱服务，邮箱后缀为 <code>@9em.org</code> 9em 取自 九条命 Email</p><p>在屏幕右上角输入一个你想要的邮箱前缀，就能收取邮件需要注意的是这个邮箱对所有人都是公开的，并且邮件仅在服务器保存十分钟，十分钟后会自动删除</p><blockquote><p>maildrop</p></blockquote><p><a href="https://maildrop.cc/" target="_blank" rel="noopener">https://maildrop.cc</a></p><p>打开 maildrop 会自动生成一个临时的邮箱，如果你不想更改地址，可以直接点右上角的 Go 进入收件箱页面，也可以在右上角修改邮箱前缀地址，在进入临时收件箱页面。</p><blockquote><p>bccto</p></blockquote><p><a href="http://bccto.me/" target="_blank" rel="noopener">http://bccto.me</a></p><p>10 分钟邮箱，可以自定义也可以随机申请的 10 分钟临时邮箱，支持自定义域名，可以将自己的域名绑定 bccto 服务。</p><blockquote><p>10minutemail</p></blockquote><p><a href="https://10minutemail.net/" target="_blank" rel="noopener">https://10minutemail.net</a></p><p>一个 10 分钟邮箱</p><blockquote><p>10minutemail</p></blockquote><p><a href="https://10minutemail.com/" target="_blank" rel="noopener">https://10minutemail.com</a></p><p>10 分钟邮箱，老牌网站 07 年稳定至今。 小部分网站网站封锁了 10minutemail 的域名，可能无法接收，可以当作备用。</p><blockquote><p>临时邮箱</p></blockquote><p><a href="https://linshiyou.com/" target="_blank" rel="noopener">https://linshiyou.com</a><br><a href="https://linshiyouxiang.net/" target="_blank" rel="noopener">https://linshiyouxiang.net</a><br><a href="https://t.odmail.cn/" target="_blank" rel="noopener">https://t.odmail.cn</a></p><p>UI 很简洁，可以自定义也可以随机生成。</p><blockquote><p>anyalias</p></blockquote><p><a href="https://anyalias.com/" target="_blank" rel="noopener">https://anyalias.com</a></p><p>anyalias 是一个可以保护隐私的邮箱服务，可以生成一个自定义的邮箱然后转发给你的真实邮箱，从而达到保护隐私的效果，更多介绍查看 [anyalias.com：无限制的免费电子邮件地址</p><blockquote><p>eskiimo</p></blockquote><p><a href="https://eskiimo.com/" target="_blank" rel="noopener">https://eskiimo.com</a></p><p>匿名发送邮件给任何人。</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;9em&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://9em.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://9em.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9em.org 来自不死鸟微
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>全网免费音乐搜索汇总</title>
     <link href="https://hugoyzc.github.io/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/"/>
     <id>https://hugoyzc.github.io/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/</id>
     <published>2020-04-22T03:45:38.000Z</published>
-    <updated>2020-04-22T03:51:42.192Z</updated>
+    <updated>2020-04-22T04:20:45.854Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p><p>免费音乐搜索下载网站，这里分享的网站均来自<strong>网友推荐</strong>及<strong>搜索引擎</strong></p><p>请使用 <strong>正版音乐平台</strong>，以下网站仅供测试用途。</p><h2 id="免费音乐下载大全展开目录"><a href="#免费音乐下载大全展开目录" class="headerlink" title="免费音乐下载大全展开目录"></a>免费音乐下载大全展开目录</h2><blockquote><p>推荐：墨灵音乐，网址：<a href="https://music.qugeek.com/" target="_blank" rel="noopener">https://music.qugeek.com/</a></p></blockquote><table><thead><tr><th>「推荐」墨灵音乐</th><th><a href="https://music.qugeek.com/" target="_blank" rel="noopener">戳我直达→</a></th></tr></thead><tbody><tr><td>海量音乐搜索，试听，下载</td><td>无广告，无需注册登陆，完全免费</td></tr><tr><td>在线白噪音，转码，编辑 MP3 标签，FM</td><td>支持部分音乐无损下载</td></tr></tbody></table><blockquote><p>网易云音乐、QQ 音乐、咪咕音乐 (可播放 vip、下架歌曲)</p></blockquote><ul><li><a href="http://music.jsososo.com/" target="_blank" rel="noopener">http://music.jsososo.com/</a></li><li><a href="http://tool.liumingye.cn/music/" target="_blank" rel="noopener">http://tool.liumingye.cn/music/</a></li></ul><blockquote><p>下方网站基于<code>麦聪音乐搜索器</code>搭建的网站：支持十多种主流音乐平台搜索试听下载。</p></blockquote><ul><li><a href="http://music.uixsj.cn/" target="_blank" rel="noopener">http://music.uixsj.cn</a></li><li><a href="http://www.lxh5068.com/music" target="_blank" rel="noopener">http://www.lxh5068.com/music</a></li><li><a href="http://www.xieqian.vip/music" target="_blank" rel="noopener">http://www.xieqian.vip/music</a></li></ul><blockquote><p>下方网站基于 <code>mkonlineplayer</code> 搭建的在线音乐播放器，支持主流音乐平台搜索试听下载。</p></blockquote><ul><li><a href="https://music.9iqu.cn/" target="_blank" rel="noopener">https://music.9iqu.cn</a></li><li><a href="https://music.postgraduate.top/" target="_blank" rel="noopener">https://music.postgraduate.top</a></li><li><a href="https://www.xcbkb.com/music" target="_blank" rel="noopener">https://www.xcbkb.com/music</a></li><li><a href="http://vip.xcsee.cn/music" target="_blank" rel="noopener">http://vip.xcsee.cn/music</a></li><li><a href="http://ayy.ayxhk.com/" target="_blank" rel="noopener">http://ayy.ayxhk.com</a></li><li><a href="http://vip.xcsee.cn/music" target="_blank" rel="noopener">http://vip.xcsee.cn/music</a></li><li><a href="http://tool.yiixue.com/Tools/mk_music" target="_blank" rel="noopener">http://tool.yiixue.com/Tools/mk_music</a></li></ul><blockquote><p>不错的音乐在线试听网站，将 QQ 音乐、网易云音乐和虾米音乐上的歌添加到一个列表来播放</p></blockquote><ul><li><a href="http://tongzhong.xyz/" target="_blank" rel="noopener">http://tongzhong.xyz</a></li><li><a href="http://mini.tongzhong.xyz/" target="_blank" rel="noopener">http://mini.tongzhong.xyz</a></li></ul><h2 id="无损音乐下载软件展开目录"><a href="#无损音乐下载软件展开目录" class="headerlink" title="无损音乐下载软件展开目录"></a>无损音乐下载软件展开目录</h2><blockquote><p>洛雪播放器</p></blockquote><p>可以下载网易云音乐 / QQ 音乐 / 咪咕音乐 / 酷狗音乐 / 酷我音乐 支持 Windows、Mac</p><p><strong>高速下载</strong></p><p><a href="https://lanzous.com/b906260/" target="_blank" rel="noopener"> <strong>密码：<code>glqw</code></strong></a></p><blockquote><p>MOO 音乐</p></blockquote><p>支持 iOS、安卓，腾讯出品，共享 QQ 音乐版权，每天听歌自动送 VIP 手机必备的听歌神器</p><p><a href="https://moo.qq.com/" target="_blank" rel="noopener"> <strong>下载</strong></a></p><blockquote><p>QMD 安卓无损音乐下载</p></blockquote><p>可以下载 QQ 音乐支持高品质 320k 及无损音质音乐下载，不支持付费专辑。</p><p><strong>高速下载</strong></p><p><a href="https://lanzous.com/i9smvrc" target="_blank" rel="noopener"> <strong>下载</strong></a></p><blockquote><p>音乐侠安卓无损音乐下载</p></blockquote><p>支持高品质 320k 及无损音质音乐下载，不支持付费专辑。</p><p><strong>高速下载</strong></p><p><a href="https://lanzous.com/i9sn3le" target="_blank" rel="noopener"> <strong>下载</strong></a></p><blockquote><p>音乐免费下载：国外免费音乐下载神器，支持中文搜索，搜索速度快音乐全。</p></blockquote><p><a href="https://hao.su/1906/" target="_blank" rel="noopener">Youtube 音乐下载</a>、<a href="https://hao.su/2025/" target="_blank" rel="noopener">Youtube To mp3 Api</a></p><h2 id="免费音乐搜索大全展开目录"><a href="#免费音乐搜索大全展开目录" class="headerlink" title="免费音乐搜索大全展开目录"></a>免费音乐搜索大全展开目录</h2><blockquote><p>mmplayer 在线音乐播放器：ui 美观，支持网易音乐</p></blockquote><ul><li><a href="https://www.postgraduate.top/app.php/music" target="_blank" rel="noopener">https://www.postgraduate.top/app.php/music</a></li><li><a href="http://music.mtnhao.com/" target="_blank" rel="noopener">http://music.mtnhao.com/</a></li></ul><blockquote><p>摩声音乐搜索：搜索歌曲速度很快，支持网易云、QQ、虾米、酷狗、百度免费搜索试听下载。</p></blockquote><p><a href="http://moresound.tk/music/" target="_blank" rel="noopener">http://moresound.tk/music/</a></p><blockquote><p>解锁网易云音乐灰色链接</p></blockquote><p><a href="https://github.com/nondanee/UnblockNeteaseMusic" target="_blank" rel="noopener">https://github.com/nondanee/UnblockNeteaseMusic</a></p><p>收藏：<a href="https://hao.su/music" target="_blank" rel="noopener">音乐搜索神器</a> 可以快速直达本页。</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
     
@@ -37,10 +120,12 @@
     </summary>
     
     
-      <category term="音乐下载" scheme="https://hugoyzc.github.io/categories/%E9%9F%B3%E4%B9%90%E4%B8%8B%E8%BD%BD/"/>
+      <category term="影音" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E9%9F%B3/"/>
     
     
-      <category term="音乐搜索" scheme="https://hugoyzc.github.io/tags/%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2/"/>
+      <category term="音乐搜索下载" scheme="https://hugoyzc.github.io/tags/%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E4%B8%8B%E8%BD%BD/"/>
+    
+      <category term="下载" scheme="https://hugoyzc.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
@@ -49,7 +134,7 @@
     <link href="https://hugoyzc.github.io/2020/04/22/%E5%AE%89%E5%8D%93%E5%BD%B1%E8%A7%86%20APP%20%E6%B1%87%E6%80%BB/"/>
     <id>https://hugoyzc.github.io/2020/04/22/%E5%AE%89%E5%8D%93%E5%BD%B1%E8%A7%86%20APP%20%E6%B1%87%E6%80%BB/</id>
     <published>2020-04-22T03:25:13.000Z</published>
-    <updated>2020-04-22T03:39:55.712Z</updated>
+    <updated>2020-04-22T04:20:58.031Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th><a href="https://sourl.cn/RrxEvG" target="_blank" rel="noopener">AG 美剧</a></th><th>AG 美剧，手机看美剧必备 app</th></tr></thead><tbody><tr><td><a href="https://sourl.cn/OLsOLR" target="_blank" rel="noopener">冬瓜影视</a></td><td>冬瓜视频，资源高清播放速度快</td></tr><tr><td><a href="http://lanzous.com/s/13579" target="_blank" rel="noopener">资源猫</a></td><td>资源猫，能用的安卓影视 app</td></tr><tr><td><a href="https://lanzous.com/htys" target="_blank" rel="noopener">海豚影视</a></td><td>海豚影视，能用的安卓影视 app</td></tr><tr><td><a href="https://lanzous.com/ddys" target="_blank" rel="noopener">点点影视</a></td><td>点点影视，能用的安卓影视 app</td></tr><tr><td><a href="https://lanzous.com/b751334" target="_blank" rel="noopener">tita 搜索</a></td><td>tita 搜索，可投屏的安卓影视 app</td></tr><tr><td><a href="https://lanzous.com/i7sijuh" target="_blank" rel="noopener">每天影视</a></td><td>每天影视，可投屏的安卓影视 app</td></tr><tr><td><a href="https://lanzous.com/ia1zouf" target="_blank" rel="noopener">荐片</a></td><td>荐片，当备用的安卓影视 app</td></tr></tbody></table><p><img src="/" alt="安卓影视APP汇总" class="lazyload" data-src="https://tva2.sinaimg.cn/large/6f8a2832gy1gcmm8xv5j9j20mg0ciwfs.jpg"></p><p>资源猫、海豚影视、点点影视、tita 搜索、每天影视 这几款 app 除了 UI 界面细微处不同，<strong>大体功能上都差不多，可以当作备用或任选其一</strong>。上方的链接大部分为 app 里提供更新的蓝奏网盘链接，请放心下载。</p><p>默认都自带了很多影视资源采集网站的解析接口。大部分要看的电影、电视剧、综艺一般都有。不喜欢手机上看的可以利用<a href="http://hugoyzc.xyz/2020/04/22/%E5%85%8D%E8%B4%B9%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/#%E5%BD%B1%E8%A7%86%E5%A4%A7%E5%85%A8%E5%B1%95%E5%BC%80%E7%9B%AE%E5%BD%95" target="_blank" rel="noopener">影视网站</a>观看。</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
     
@@ -69,9 +154,9 @@
     </summary>
     
     
-      <category term="影视" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影音" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E9%9F%B3/"/>
     
-      <category term="安卓" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E8%A7%86/%E5%AE%89%E5%8D%93/"/>
+      <category term="安卓" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E9%9F%B3/%E5%AE%89%E5%8D%93/"/>
     
     
       <category term="影视网站" scheme="https://hugoyzc.github.io/tags/%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99/"/>
@@ -83,7 +168,7 @@
     <link href="https://hugoyzc.github.io/2020/04/22/%E5%85%8D%E8%B4%B9%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/"/>
     <id>https://hugoyzc.github.io/2020/04/22/%E5%85%8D%E8%B4%B9%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/</id>
     <published>2020-04-22T03:04:59.000Z</published>
-    <updated>2020-04-22T03:45:06.511Z</updated>
+    <updated>2020-04-22T04:21:05.298Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p><p>免费最新在线影视站，仅用于<strong>测试用途</strong>。日常请使用<strong>正版视频</strong>软件，支持正版人人有责。</p><h2 id="影视大全展开目录"><a href="#影视大全展开目录" class="headerlink" title="影视大全展开目录"></a>影视大全展开目录</h2><table><thead><tr><th><a href="https://dvdhd.me/?form=https://hao.su" target="_blank" rel="noopener">碟影世界</a></th><th>最新电影在线</th></tr></thead><tbody><tr><td><a href="https://www.itsck.com/?form=https://hao.su" target="_blank" rel="noopener">sck 电影网</a></td><td>无广告电影电视剧</td></tr><tr><td><a href="https://www.zhenbuka.com/?form=https://hao.su" target="_blank" rel="noopener">真不卡影院</a></td><td>免费高清电视剧</td></tr><tr><td><a href="https://www.juhuitv.com/?form=https://hao.su" target="_blank" rel="noopener">剧汇 TV</a></td><td>免费热门电影、电视剧</td></tr><tr><td><a href="http://wukongshipin.com/?form=https://hao.su" target="_blank" rel="noopener">悟空视频</a></td><td>最新电视剧在线</td></tr><tr><td><a href="https://www.pianku.tv/?form=https://hao.su" target="_blank" rel="noopener">片库</a></td><td>免费高清影视资源</td></tr><tr><td><a href="https://www.haiwaiyy.org/?form=https://hao.su" target="_blank" rel="noopener">海外影院</a></td><td>在线剧情片</td></tr><tr><td><a href="http://ddrk.me/?form=https://hao.su" target="_blank" rel="noopener">低端影视</a></td><td>免费在线高清电影</td></tr><tr><td><a href="https://www.tcmove.com/" target="_blank" rel="noopener">太初电影</a></td><td>免费高清电影</td></tr></tbody></table><p>排名不分先后好用与否<strong>自行体验</strong>，所有域名网站与本站无关</p><hr><h2 id="影视软件展开目录"><a href="#影视软件展开目录" class="headerlink" title="影视软件展开目录"></a>影视软件展开目录</h2><table><thead><tr><th><a href="https://sourl.cn/RrxEvG" target="_blank" rel="noopener">AG 美剧</a></th><th>AG 美剧播放速度快，片源多</th></tr></thead><tbody><tr><td><a href="https://sourl.cn/OLsOLR" target="_blank" rel="noopener">冬瓜影视</a></td><td>冬瓜影视为本站<strong>赞助商</strong></td></tr><tr><td><a href="https://rr.tv/" target="_blank" rel="noopener">人人视频</a></td><td>人人视频支持安卓、iOS</td></tr><tr><td><a href="http://hanju.koudaibaobao.com/?form=hao.su/531/" target="_blank" rel="noopener">韩剧 tv</a></td><td>手机看韩剧必备 app</td></tr><tr><td><a href="http://www.meijuniao.com/app1.php" target="_blank" rel="noopener">美剧鸟</a></td><td>手机看美剧 app</td></tr><tr><td><a href="http://hugoyzc.xyz/2020/04/22/%E5%AE%89%E5%8D%93%E5%BD%B1%E8%A7%86%20APP%20%E6%B1%87%E6%80%BB/" target="_blank" rel="noopener">影视聚合</a></td><td>海量电视剧电影，支持安卓</td></tr></tbody></table><h2 id="影视资源展开目录"><a href="#影视资源展开目录" class="headerlink" title="影视资源展开目录"></a>影视资源展开目录</h2><table><thead><tr><th><a href="https://www.pianku.tv/" target="_blank" rel="noopener">片库</a></th><th>提供在线播放 + 磁力链接</th></tr></thead><tbody><tr><td><a href="https://www.bd-film.cc/?form=https://hao.su/531/" target="_blank" rel="noopener">BD 影视分享</a></td><td>提供百度网盘 + 电驴链接</td></tr><tr><td><a href="http://www.mp4ba.cc/?form=hao.su/531/" target="_blank" rel="noopener">高清 mp4 吧</a></td><td>提供百度网盘 + 磁力链接</td></tr><tr><td><a href="https://bde4.com/" target="_blank" rel="noopener">哔嘀影视</a></td><td>提供在线播放 + 磁力链接</td></tr><tr><td><a href="http://www.renrendianyingwang.cn/?form=hao.su/531/" target="_blank" rel="noopener">人人电影网</a></td><td>提供百度网盘 + 电驴迅雷磁力链接等</td></tr><tr><td><a href="http://www.llduang.com/" target="_blank" rel="noopener">一只大榴莲</a></td><td>提供百度网盘链接</td></tr><tr><td><a href="https://www.dy8c.com/" target="_blank" rel="noopener">电影巴士</a></td><td>提供电驴 + 磁力链接</td></tr><tr><td><a href="http://hugoyzc.xyz/2020/04/17/BT%20%E7%A3%81%E5%8A%9B%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA/" target="_blank" rel="noopener">磁力资源</a></td><td>提供磁力链接</td></tr><tr><td><a href="http://www.dytt.com/?form=hao.su/531/" target="_blank" rel="noopener">电影淘淘</a></td><td>提供在线播放 + 磁力链接</td></tr><tr><td>电影蜜蜂</td><td>提供百度网盘 + 在线播放 + 磁力等</td></tr></tbody></table><h2 id="日韩欧美展开目录"><a href="#日韩欧美展开目录" class="headerlink" title="日韩欧美展开目录"></a>日韩欧美展开目录</h2><table><thead><tr><th><a href="https://www.biyov.com/" target="_blank" rel="noopener">比优视频</a></th><th>欧美、日韩最新电影电视剧</th></tr></thead><tbody><tr><td><a href="http://www.novipnoad.com/?form=hao.su/531/" target="_blank" rel="noopener">NO 视频</a></td><td>欧美、日韩最新电影电视剧</td></tr><tr><td><a href="https://www.dililitv.com/?form=hao.su/531/" target="_blank" rel="noopener">嘀哩哩</a></td><td>欧美、日韩最新电影电视剧</td></tr><tr><td><a href="https://in.gimy.tv/?form=hao.su/531/" target="_blank" rel="noopener">剧迷</a></td><td>欧美、日韩、港台影视</td></tr><tr><td><a href="https://91mjw.com/?form=hao.su/531/" target="_blank" rel="noopener">91 美剧网</a></td><td>在线美剧，更新快</td></tr><tr><td><a href="https://www.imeiju.io/" target="_blank" rel="noopener">爱美剧</a></td><td>美剧天堂，在线剧集</td></tr><tr><td><a href="https://www.rijutv.com/?form=hao.su/531/" target="_blank" rel="noopener">日剧 tv</a></td><td>日剧资讯及影视在线</td></tr><tr><td><a href="https://www.reboriju.com/?form=hao.su/531/" target="_blank" rel="noopener">热播日剧</a></td><td>日剧影视在线，资源多</td></tr><tr><td><a href="http://www.snailok.com/?form=hao.su/531/" target="_blank" rel="noopener">蜗牛视频</a></td><td>韩剧资源多</td></tr><tr><td><a href="https://www.hanfan.cc/?form=hao.su/531/" target="_blank" rel="noopener">韩饭网</a></td><td>韩剧资讯及百度网盘下载</td></tr><tr><td><a href="http://www.hjzlg.com/web3/YCMS_News.asp" target="_blank" rel="noopener">韩粉乐园</a></td><td>韩剧资讯及韩剧影视在线</td></tr><tr><td><a href="http://www.duduhanju.net/?form=hao.su/531/" target="_blank" rel="noopener">嘟嘟韩剧</a></td><td>韩剧在线影视观看</td></tr></tbody></table><h2 id="在线动漫展开目录"><a href="#在线动漫展开目录" class="headerlink" title="在线动漫展开目录"></a>在线动漫展开目录</h2><table><thead><tr><th>名称</th><th>影视</th><th>特点</th></tr></thead><tbody><tr><td><a href="https://www.agefans.tv/" target="_blank" rel="noopener">AGE 动漫</a></td><td>动漫</td><td>在线播放与百度网盘</td></tr><tr><td><a href="http://www.zzzfun.com/?form=hao.su/531/" target="_blank" rel="noopener">zzzfun</a></td><td>动漫</td><td>动漫在线更新快</td></tr><tr><td><a href="http://agefans.org/" target="_blank" rel="noopener">agefans</a></td><td>动漫</td><td>在线播放及百度网盘</td></tr><tr><td><a href="http://www.qimiqimi.com/?form=hao.su/531/" target="_blank" rel="noopener">奇米奇米</a></td><td>动漫</td><td>新番动漫在线看</td></tr><tr><td><a href="http://www.dmd8.com/" target="_blank" rel="noopener">动漫岛</a></td><td>动漫</td><td>新番连载大量完结日漫、国漫</td></tr><tr><td><a href="http://www.yxdm.tv/" target="_blank" rel="noopener">怡宣动漫</a></td><td>动漫</td><td>新番连载日漫、国漫</td></tr><tr><td><a href="https://www.roozfun.com/" target="_blank" rel="noopener">免费漫画网</a></td><td>漫画</td><td>新番连载日漫、国漫</td></tr></tbody></table><h2 id="影视导航展开目录"><a href="#影视导航展开目录" class="headerlink" title="影视导航展开目录"></a>影视导航展开目录</h2><table><thead><tr><th><a href="https://www.kkw360.com/" target="_blank" rel="noopener">看看屋</a></th><th><a href="https://www.adcmove.com/" target="_blank" rel="noopener">ADC 电影网</a></th><th><a href="https://www.52dy.vip/" target="_blank" rel="noopener">52 看电影</a></th><th><a href="https://www.zxzj.me/?form=hao.su/531/" target="_blank" rel="noopener">在线之家</a></th></tr></thead><tbody><tr><td><a href="https://www.biyov.com/" target="_blank" rel="noopener">比优视频</a></td><td><a href="https://www.wanmeikk.me/?form=hao.su/531/" target="_blank" rel="noopener">完美看看</a></td><td><a href="https://www.dixidixi.com/?form=hao.su/531/" target="_blank" rel="noopener">D 站电影网</a></td><td><a href="https://ysuzy.com/" target="_blank" rel="noopener">盐酥鸡</a></td></tr><tr><td><a href="https://www.78zhuiju.com/vodtype/2.html?form=hao.su/531/" target="_blank" rel="noopener">西瓜追剧</a></td><td><a href="http://pbpb.tv/" target="_blank" rel="noopener">片吧</a></td><td>悟空视频</td><td>海狸影院</td></tr><tr><td>暖光影视</td><td>100 视频</td><td>海外影院</td><td>奈菲影视</td></tr><tr><td>影视在线</td><td>七年影视</td><td>剧迷</td><td>麻花影视</td></tr><tr><td><a href="https://dvdhd.me/" target="_blank" rel="noopener">碟影世界</a></td><td>酷云影视</td><td>黑米影院</td><td>四海影院</td></tr><tr><td><a href="https://www.ouxi.me/" target="_blank" rel="noopener">欧西电影</a></td><td>最新超清在线电影</td><td>影视看看</td><td>最新综艺</td></tr></tbody></table><p>上方影视网站如链接失效不提供最新链接，如觉得好用可以自己在搜索引擎中搜索相关文字寻找官网。</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
     
@@ -98,7 +183,7 @@
     </summary>
     
     
-      <category term="影视" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影音" scheme="https://hugoyzc.github.io/categories/%E5%BD%B1%E9%9F%B3/"/>
     
     
       <category term="影视网站" scheme="https://hugoyzc.github.io/tags/%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99/"/>
@@ -218,9 +303,9 @@
     <link href="https://hugoyzc.github.io/2020/04/21/%E7%BD%91%E9%A1%B5%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB/"/>
     <id>https://hugoyzc.github.io/2020/04/21/%E7%BD%91%E9%A1%B5%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7%E6%B1%87%E6%80%BB/</id>
     <published>2020-04-21T15:06:00.000Z</published>
-    <updated>2020-04-21T15:09:54.366Z</updated>
+    <updated>2020-04-22T04:27:45.246Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="在线小工具展开目录"><a href="#在线小工具展开目录" class="headerlink" title="在线小工具展开目录"></a>在线小工具展开目录</h2><table><thead><tr><th><a href="https://hao.su/531/" target="_blank" rel="noopener">影视网站</a></th><th>观看各大视频平台的电视剧、电影</th></tr></thead><tbody><tr><td><a href="https://hao.su/2217/" target="_blank" rel="noopener">音乐播放器</a></td><td>免费试听各大平台音乐</td></tr><tr><td><a href="https://dalao.ru/" target="_blank" rel="noopener">大佬搜索</a></td><td>好用的搜索引擎</td></tr><tr><td><a href="https://ps.gaoding.com/" target="_blank" rel="noopener">在线 ps</a>、<a href="http://www.polaxiong.com/editor" target="_blank" rel="noopener">泼辣修图</a></td><td>在线图片编辑工具</td></tr><tr><td><a href="https://tableconvert.com/" target="_blank" rel="noopener">在线表格转换</a></td><td>在线表格转换工具</td></tr><tr><td><a href="https://www.apowersoft.cn/compress-file-online" target="_blank" rel="noopener">在线视频压缩</a></td><td>免费优质压缩视频、图片及 PDF 文件</td></tr><tr><td><a href="https://docsmall.com/" target="_blank" rel="noopener">docsmall</a></td><td>在线图片压缩处理，在线 pdf 处理</td></tr><tr><td><a href="http://x.bensee.com.cn/parse" target="_blank" rel="noopener">短视频解析</a></td><td>抖音快手短视频无水印下载</td></tr><tr><td><a href="https://www.xbeibeix.com/api/bilibili/?hao.su" target="_blank" rel="noopener">哔哩哔哩解析</a></td><td>哔哩哔哩视频在线下载</td></tr><tr><td><a href="http://mp3cut.net/cn/" target="_blank" rel="noopener">Audio Cutter</a>、<a href="http://ringer.org/zh/" target="_blank" rel="noopener">ringer</a></td><td>在线铃声剪辑工具</td></tr><tr><td><a href="https://duguang.aliyun.com/experience?type=doc&midtype=fulldoc&subtype=general" target="_blank" rel="noopener">阿里读光</a></td><td>阿里出品的在线图片 OCR 识别应用</td></tr><tr><td><a href="https://convertio.co/zh/" target="_blank" rel="noopener">convertio</a></td><td>在线格式转换工具</td></tr><tr><td><a href="https://hao.su/47/" target="_blank" rel="noopener">临时邮箱</a></td><td>保护隐私，随机生成临时邮箱地址</td></tr><tr><td><a href="https://hao.su/2495/" target="_blank" rel="noopener">在线接码</a></td><td>保护隐私，免费的电话短信接受</td></tr><tr><td><a href="https://hao.su/48/" target="_blank" rel="noopener">图片压缩</a></td><td>图片压缩一般在线服务足以满足需求</td></tr><tr><td><a href="https://hao.su/2225/" target="_blank" rel="noopener">二维码生成</a></td><td>添加文字或网址，动态生成二维码</td></tr><tr><td><a href="https://hao.su/pic.html" target="_blank" rel="noopener">在线图床</a></td><td>快速获取图片链接，方便分享</td></tr><tr><td><a href="https://hao.su/1420/" target="_blank" rel="noopener">短地址汇总</a></td><td>缩短网址链接，方便分享</td></tr></tbody></table><h2 id="在线办公展开目录"><a href="#在线办公展开目录" class="headerlink" title="在线办公展开目录"></a>在线办公展开目录</h2><table><thead><tr><th>「推荐」可视化团队协作工具</th><th><a href="https://www.huiyizhuo.com/" target="_blank" rel="noopener">会议桌</a></th></tr></thead><tbody><tr><td>阿里巴巴团队出品在线办公利器</td><td><a href="https://yuque.com/" target="_blank" rel="noopener">语雀</a></td></tr><tr><td>腾讯系产品无缝联动</td><td><a href="https://docs.qq.com/" target="_blank" rel="noopener">腾讯文档</a></td></tr><tr><td>国内知名在线文档</td><td><a href="https://shimo.im/" target="_blank" rel="noopener">石墨文档</a></td></tr><tr><td>国外知名在线协作平台</td><td><a href="https://notion.so/" target="_blank" rel="noopener">notion</a></td></tr></tbody></table><h2 id="图片处理展开目录"><a href="#图片处理展开目录" class="headerlink" title="图片处理展开目录"></a>图片处理展开目录</h2><p><strong>在线抠图，图片 ai 放大</strong></p><p><a href="https://imglarger.com/Tw" target="_blank" rel="noopener">https://imglarger.com/Tw</a></p><p>更多的在线抠图、图片无损放大网站，可以看更多：<a href="https://hao.su/3095/" target="_blank" rel="noopener">图片放大</a>、<a href="https://hao.su/2968/" target="_blank" rel="noopener">在线抠图</a>网站</p><p><a href="https://squoosh.app/" target="_blank" rel="noopener">Squoosh</a> 谷歌出品的图片压缩网站</p><p><a href="https://tool.tanpok.com/" target="_blank" rel="noopener">tanpok 图片压缩</a>基于浏览器提供的压缩功能</p><p><a href="https://tiomg.org/compress-image" target="_blank" rel="noopener">太美工具箱图片压缩工具</a> 智能化的图片压缩，支持 PNG/GIF/JPG 图片压缩。</p><p>更多好用的在线图片压缩网站，可以看：<a href="https://hao.su/48/" target="_blank" rel="noopener">在线图片压缩网站</a></p><h2 id="在线接码展开目录"><a href="#在线接码展开目录" class="headerlink" title="在线接码展开目录"></a>在线接码展开目录</h2><ul><li><a href="https://www.pdflibr.com/" target="_blank" rel="noopener">https://www.pdflibr.com</a></li><li><a href="https://www.visitorsms.com/cn" target="_blank" rel="noopener">https://www.visitorsms.com/cn</a></li><li><a href="https://www.becmd.com/" target="_blank" rel="noopener">https://www.becmd.com</a></li></ul><p>更多免费国内外接码平台请看：<a href="https://hao.su/2495/" target="_blank" rel="noopener">免费短信接码网站</a></p><h2 id="IP-查询展开目录"><a href="#IP-查询展开目录" class="headerlink" title="IP 查询展开目录"></a>IP 查询展开目录</h2><ul><li><a href="https://ip.sb/" target="_blank" rel="noopener">https://ip.sb</a></li><li><a href="https://www.ipip.net/" target="_blank" rel="noopener">https://www.ipip.net</a></li><li><a href="https://ip.cn/" target="_blank" rel="noopener">https://ip.cn</a></li></ul><h2 id="临时邮箱展开目录"><a href="#临时邮箱展开目录" class="headerlink" title="临时邮箱展开目录"></a>临时邮箱展开目录</h2><ul><li><a href="https://9em.org/" target="_blank" rel="noopener">https://9em.org</a></li></ul><p>9em.org 来自不死鸟微信群内大佬，这是一个 10 分钟邮箱服务，邮箱后缀为 <code>@9em.org</code> 9em 取自 九条命 Email</p><p>在屏幕右上角输入一个你想要的邮箱前缀，就能收取邮件需要注意的是这个邮箱对所有人都是公开的，并且邮件仅在服务器保存十分钟，十分钟后会自动删除</p><ul><li><a href="http://bccto.me/" target="_blank" rel="noopener">http://bccto.me</a></li></ul><p>10 分钟邮箱，可以自定义也可以随机申请的 10 分钟临时邮箱，支持自定义域名，可以将自己的域名绑定 bccto 服务。</p><ul><li><a href="https://10minutemail.net/" target="_blank" rel="noopener">https://10minutemail.net</a></li></ul><p>一个 10 分钟邮箱</p><p>更多免费临时邮箱请看：<a href="https://hao.su/47/" target="_blank" rel="noopener">免费在线临时邮箱</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="在线小工具展开目录"><a href="#在线小工具展开目录" class="headerlink" title="在线小工具展开目录"></a>在线小工具展开目录</h2><table><thead><tr><th><a href="http://hugoyzc.xyz/2020/04/22/%E5%85%8D%E8%B4%B9%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/" target="_blank" rel="noopener">影视网站</a></th><th>观看各大视频平台的电视剧、电影</th></tr></thead><tbody><tr><td><a href="http://hugoyzc.xyz/2020/04/22/%E5%85%A8%E7%BD%91%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E6%90%9C%E7%B4%A2%E6%B1%87%E6%80%BB/" target="_blank" rel="noopener">音乐播放器</a></td><td>免费试听各大平台音乐</td></tr><tr><td><a href="https://ps.gaoding.com/" target="_blank" rel="noopener">在线 ps</a>、<a href="http://www.polaxiong.com/editor" target="_blank" rel="noopener">泼辣修图</a></td><td>在线图片编辑工具</td></tr><tr><td><a href="https://tableconvert.com/" target="_blank" rel="noopener">在线表格转换</a></td><td>在线表格转换工具</td></tr><tr><td><a href="https://www.apowersoft.cn/compress-file-online" target="_blank" rel="noopener">在线视频压缩</a></td><td>免费优质压缩视频、图片及 PDF 文件</td></tr><tr><td><a href="https://docsmall.com/" target="_blank" rel="noopener">docsmall</a></td><td>在线图片压缩处理，在线 pdf 处理</td></tr><tr><td><a href="http://x.bensee.com.cn/parse" target="_blank" rel="noopener">短视频解析</a></td><td>抖音快手短视频无水印下载</td></tr><tr><td><a href="https://www.xbeibeix.com/api/bilibili/?hao.su" target="_blank" rel="noopener">哔哩哔哩解析</a></td><td>哔哩哔哩视频在线下载</td></tr><tr><td><a href="http://mp3cut.net/cn/" target="_blank" rel="noopener">Audio Cutter</a>、<a href="http://ringer.org/zh/" target="_blank" rel="noopener">ringer</a></td><td>在线铃声剪辑工具</td></tr><tr><td><a href="https://duguang.aliyun.com/experience?type=doc&midtype=fulldoc&subtype=general" target="_blank" rel="noopener">阿里读光</a></td><td>阿里出品的在线图片 OCR 识别应用</td></tr><tr><td><a href="https://convertio.co/zh/" target="_blank" rel="noopener">convertio</a></td><td>在线格式转换工具</td></tr><tr><td><a href="https://hao.su/47/" target="_blank" rel="noopener">临时邮箱</a></td><td>保护隐私，随机生成临时邮箱地址</td></tr><tr><td><a href="https://hao.su/2495/" target="_blank" rel="noopener">在线接码</a></td><td>保护隐私，免费的电话短信接受</td></tr><tr><td><a href="https://hao.su/48/" target="_blank" rel="noopener">图片压缩</a></td><td>图片压缩一般在线服务足以满足需求</td></tr><tr><td><a href="https://hao.su/2225/" target="_blank" rel="noopener">二维码生成</a></td><td>添加文字或网址，动态生成二维码</td></tr><tr><td><a href="https://hao.su/pic.html" target="_blank" rel="noopener">在线图床</a></td><td>快速获取图片链接，方便分享</td></tr><tr><td><a href="https://hao.su/1420/" target="_blank" rel="noopener">短地址汇总</a></td><td>缩短网址链接，方便分享</td></tr></tbody></table><h2 id="在线办公展开目录"><a href="#在线办公展开目录" class="headerlink" title="在线办公展开目录"></a>在线办公展开目录</h2><table><thead><tr><th>「推荐」可视化团队协作工具</th><th><a href="https://www.huiyizhuo.com/" target="_blank" rel="noopener">会议桌</a></th></tr></thead><tbody><tr><td>阿里巴巴团队出品在线办公利器</td><td><a href="https://yuque.com/" target="_blank" rel="noopener">语雀</a></td></tr><tr><td>腾讯系产品无缝联动</td><td><a href="https://docs.qq.com/" target="_blank" rel="noopener">腾讯文档</a></td></tr><tr><td>国内知名在线文档</td><td><a href="https://shimo.im/" target="_blank" rel="noopener">石墨文档</a></td></tr><tr><td>国外知名在线协作平台</td><td><a href="https://notion.so/" target="_blank" rel="noopener">notion</a></td></tr></tbody></table><h2 id="图片处理展开目录"><a href="#图片处理展开目录" class="headerlink" title="图片处理展开目录"></a>图片处理展开目录</h2><p><strong>在线抠图，图片 ai 放大</strong></p><p><a href="https://imglarger.com/Tw" target="_blank" rel="noopener">https://imglarger.com/Tw</a></p><p>更多的在线抠图、图片无损放大网站，可以看更多：<a href="https://hao.su/3095/" target="_blank" rel="noopener">图片放大</a>、<a href="https://hao.su/2968/" target="_blank" rel="noopener">在线抠图</a>网站</p><p><a href="https://squoosh.app/" target="_blank" rel="noopener">Squoosh</a> 谷歌出品的图片压缩网站</p><p><a href="https://tool.tanpok.com/" target="_blank" rel="noopener">tanpok 图片压缩</a>基于浏览器提供的压缩功能</p><p><a href="https://tiomg.org/compress-image" target="_blank" rel="noopener">太美工具箱图片压缩工具</a> 智能化的图片压缩，支持 PNG/GIF/JPG 图片压缩。</p><p>更多好用的在线图片压缩网站，可以看：<a href="https://hao.su/48/" target="_blank" rel="noopener">在线图片压缩网站</a></p><h2 id="在线接码展开目录"><a href="#在线接码展开目录" class="headerlink" title="在线接码展开目录"></a>在线接码展开目录</h2><ul><li><a href="https://www.pdflibr.com/" target="_blank" rel="noopener">https://www.pdflibr.com</a></li><li><a href="https://www.visitorsms.com/cn" target="_blank" rel="noopener">https://www.visitorsms.com/cn</a></li><li><a href="https://www.becmd.com/" target="_blank" rel="noopener">https://www.becmd.com</a></li></ul><p>更多免费国内外接码平台请看：<a href="https://hao.su/2495/" target="_blank" rel="noopener">免费短信接码网站</a></p><h2 id="IP-查询展开目录"><a href="#IP-查询展开目录" class="headerlink" title="IP 查询展开目录"></a>IP 查询展开目录</h2><ul><li><a href="https://ip.sb/" target="_blank" rel="noopener">https://ip.sb</a></li><li><a href="https://www.ipip.net/" target="_blank" rel="noopener">https://www.ipip.net</a></li><li><a href="https://ip.cn/" target="_blank" rel="noopener">https://ip.cn</a></li></ul><h2 id="临时邮箱展开目录"><a href="#临时邮箱展开目录" class="headerlink" title="临时邮箱展开目录"></a>临时邮箱展开目录</h2><ul><li><a href="https://9em.org/" target="_blank" rel="noopener">https://9em.org</a></li></ul><p>9em.org 来自不死鸟微信群内大佬，这是一个 10 分钟邮箱服务，邮箱后缀为 <code>@9em.org</code> 9em 取自 九条命 Email</p><p>在屏幕右上角输入一个你想要的邮箱前缀，就能收取邮件需要注意的是这个邮箱对所有人都是公开的，并且邮件仅在服务器保存十分钟，十分钟后会自动删除</p><ul><li><a href="http://bccto.me/" target="_blank" rel="noopener">http://bccto.me</a></li></ul><p>10 分钟邮箱，可以自定义也可以随机申请的 10 分钟临时邮箱，支持自定义域名，可以将自己的域名绑定 bccto 服务。</p><ul><li><a href="https://10minutemail.net/" target="_blank" rel="noopener">https://10minutemail.net</a></li></ul><p>一个 10 分钟邮箱</p><p>更多免费临时邮箱请看：<a href="https://hao.su/47/" target="_blank" rel="noopener">免费在线临时邮箱</a></p>]]></content>
     
     <summary type="html">
     
@@ -229,7 +314,7 @@
         &lt;h2 id=&quot;在线小工具展开目录&quot;&gt;&lt;a href=&quot;#在线小工具展开目录&quot; class=&quot;headerlink&quot; title=&quot;在线小工具展开目录&quot;&gt;&lt;/a&gt;在线小工具展开目录&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;&lt;a href=&quot;https://hao
+&lt;th&gt;&lt;a href=&quot;http://hugo
       
     
     </summary>
@@ -497,61 +582,6 @@
       <category term="SSR" scheme="https://hugoyzc.github.io/tags/SSR/"/>
     
       <category term="资讯" scheme="https://hugoyzc.github.io/tags/%E8%B5%84%E8%AE%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>苹果发布新产品，支持全新带触控板智能键盘</title>
-    <link href="https://hugoyzc.github.io/2020/03/24/%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E6%96%B0%E4%BA%A7%E5%93%81%EF%BC%8C%E6%94%AF%E6%8C%81%E5%85%A8%E6%96%B0%E5%B8%A6%E8%A7%A6%E6%8E%A7%E6%9D%BF%E6%99%BA%E8%83%BD%E9%94%AE%E7%9B%98/"/>
-    <id>https://hugoyzc.github.io/2020/03/24/%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E6%96%B0%E4%BA%A7%E5%93%81%EF%BC%8C%E6%94%AF%E6%8C%81%E5%85%A8%E6%96%B0%E5%B8%A6%E8%A7%A6%E6%8E%A7%E6%9D%BF%E6%99%BA%E8%83%BD%E9%94%AE%E7%9B%98/</id>
-    <published>2020-03-24T05:04:21.000Z</published>
-    <updated>2020-03-28T16:15:56.055Z</updated>
-    
-    <content type="html"><![CDATA[<p>就在3月18日晚，苹果在自家的 Apple Store 中上新一些新产品，其中包括全新的 iPad Pro、MacBook Air。暂无iPhone 9！</p><blockquote><h1 id="新-iPad-Pro"><a href="#新-iPad-Pro" class="headerlink" title="新 iPad Pro"></a><strong>新 iPad Pro</strong></h1></blockquote><p>从正面来看，本次发布的新 iPad Pro 和上一代一样依旧采用了全面设计的圆角屏幕，其中包含了11英寸和12.9英寸两款屏幕尺寸。</p><p><img src="/" alt="" class="lazyload" data-src="1.gif"></p><p>从背部来看，和上一代不同，新 iPad Pro 采用了矩阵设计的双背部摄像头，分别为1200万像素广角摄像头和1000万像素的超广角摄像头。拥有5个录音棚级别的麦克风和亮度更高的原彩闪光灯，还配备了一个激光雷达扫描仪（LiDAR），它能通过发射再接收反射光，实现精确测距，带来更真实的增强现实。</p><p><img src="/" alt="" class="lazyload" data-src="2.gif"></p><p>配置方面，iPad Pro（第四代）搭载A12Z仿生芯片，配备8核图形处理器，官方称速度已赶超许多笔记本电脑，8 核图形处理器可为 4K 视频剪辑、3D 设计和增强现实等任务带来流畅表现。</p><p><img src="/" alt="" class="lazyload" data-src="3.jfif"></p><p>新 iPad Pro 现在支持触控板操作了，苹果本次配套推出了全新的 妙控键盘 ，除了标准的按键布局之外，还拥有了和 MacBook 系列一样的触控板。它采用平滑角度调节的浮动设计，磁力吸附，自带的USB接口还能给iPad Pro充电，键盘支持背光，可以让用户随心调节 iPad Pro 的浏览角度。这次全新的妙控键盘还带来触控板，通过触控板即使再精细的操作也可以得心应手。</p><p><img src="/" alt="" class="lazyload" data-src="4.jfif"></p><blockquote><p><strong>售价方面，新 iPad Pro 售价如下：</strong></p></blockquote><table><thead><tr><th>11 英寸</th><th>WI-FI版</th><th>WI-FI+蜂窝</th></tr></thead><tbody><tr><td>128GB</td><td>6299元</td><td>7429 元</td></tr><tr><td>256GB</td><td>7029 元</td><td>8229 元</td></tr><tr><td>512GB</td><td>8629 元</td><td>9829 元</td></tr><tr><td>1TB</td><td>10229 元</td><td>11429 元</td></tr></tbody></table><table><thead><tr><th>12 英寸</th><th>WI-FI版</th><th>WI-FI+蜂窝</th></tr></thead><tbody><tr><td>128GB</td><td>7899元</td><td>9099 元</td></tr><tr><td>256GB</td><td>8699 元</td><td>9899 元</td></tr><tr><td>512GB</td><td>10299元</td><td>11499 元</td></tr><tr><td>1TB</td><td>11899 元</td><td>13099元</td></tr></tbody></table><p>而在此之前，上一代的 iPad Pro 64GB 11英寸 卖<strong>￥6499</strong>。</p><p>也就是说，内存增大了，摄像头多了，性能增强了，配置更丰富了，结果还便宜了！</p><p><strong>不得不说，这次 iPad Pro 定价确实良心。</strong></p><p><strong>这里多说一句，新 iPad Pro 的妙控键盘是需要另外购买的</strong></p><blockquote><p><strong>适用于：</strong></p></blockquote><p>12.9 英寸 iPad Pro (第三代和第四代)</p><p>11 英寸 iPad Pro (第一代和第二代)</p><blockquote><p><strong>售价方面：</strong></p></blockquote><p>适用于12.9 英寸 iPad Pro（2699元）</p><p>适用于11 英寸 iPad Pro (2399元)</p><p>将于5月份上市</p><p><img src="/" alt="" class="lazyload" data-src="5.gif"></p><blockquote><h1 id="MacBook-Air-2020"><a href="#MacBook-Air-2020" class="headerlink" title="MacBook Air 2020"></a><strong>MacBook Air 2020</strong></h1></blockquote><p>苹果还发布了MacBook Air 2020款，新款 MacBook Air 外观与上一代比外观变化不大，依旧是搭载了13.3英寸的视网膜显示屏。主要针对处理器，内存，键盘方面做了升级。</p><p><img src="/" alt="" class="lazyload" data-src="9.png"></p><p>新款 MacBook Air 配备了最新的第十代酷睿处理器，最高可选配至4核Intel Core i7处理器。性能较前代提升2倍，图像处理性能提升80%，硬盘容量256固态起步，最高可选 2TB。运行内存升级到了3733MHz的LPDDR4X内存，8G起步，最高可选16G。</p><p>键盘采用了和16 英寸 MacBook Pro一样的妙控键盘（剪刀式）。触控板面积相比上一版本增大了20%。</p><p><img src="/" alt="" class="lazyload" data-src="6.webp"></p><p>售价方面，新 MacBook Air 的 i3 处理器版起售价为7999元</p><p><img src="/" alt="" class="lazyload" data-src="7.jfif"></p><p>原文链接 <a href="https://www.toutiao.com/a6805861779424412164/?tt_from=weixin&utm_campaign=client_share&app=news_article&utm_source=weixin&iid=107985904104&utm_medium=toutiao_ios&wxshare_count=1" target="_blank" rel="noopener">苹果发布新产品，新 iPad Pro 支持全新带触控板智能键盘</a></p><p><img src="/" alt="img" class="lazyload" data-src="https://mmbiz.qpic.cn/mmbiz_png/X7huySzcvU50L836xWZ7v6gXXaMoLkbaicINu0w0KHKJyhozCf0jicjzjjHYO2wiaUomgZS9J4aqTFhXYCf73IMfw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></p><p><img src="/" alt="" class="lazyload" data-src="8.webp"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;就在3月18日晚，苹果在自家的 Apple Store 中上新一些新产品，其中包括全新的 iPad Pro、MacBook Air。暂无iPhone 9！&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;h1 id=&quot;新-iPad-Pro&quot;&gt;&lt;a href=&quot;#新-iPad-Pro&quot; 
-      
-    
-    </summary>
-    
-    
-      <category term="iPhone" scheme="https://hugoyzc.github.io/categories/iPhone/"/>
-    
-    
-      <category term="资讯" scheme="https://hugoyzc.github.io/tags/%E8%B5%84%E8%AE%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>神器丨免费白嫖价值175￥的IDM下载神器，解锁永久会员特权！</title>
-    <link href="https://hugoyzc.github.io/2020/03/22/%E7%A5%9E%E5%99%A8%E4%B8%A8%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E4%BB%B7%E5%80%BC175%EF%BF%A5%E7%9A%84IDM%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8%EF%BC%8C%E8%A7%A3%E9%94%81%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98%E7%89%B9%E6%9D%83%EF%BC%81/"/>
-    <id>https://hugoyzc.github.io/2020/03/22/%E7%A5%9E%E5%99%A8%E4%B8%A8%E5%85%8D%E8%B4%B9%E7%99%BD%E5%AB%96%E4%BB%B7%E5%80%BC175%EF%BF%A5%E7%9A%84IDM%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8%EF%BC%8C%E8%A7%A3%E9%94%81%E6%B0%B8%E4%B9%85%E4%BC%9A%E5%91%98%E7%89%B9%E6%9D%83%EF%BC%81/</id>
-    <published>2020-03-22T06:10:56.000Z</published>
-    <updated>2020-03-28T16:18:50.215Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天给大家分享的是一款享誉世界的下载神器，绿色版：IDM v6.35 ，适用于 Windows</p><p>Internet Download Manager，全球最流行的下载工具。Internet Download Manager (简称IDM) Windows 平台功能强大的多线程下载工具，国外非常受欢迎。支持断点续传，支持嗅探视频音频，接管所有浏览器，具有站点抓取、批量下载队列、计划任务下载，自动识别文件名、静默下载、网盘下载支持等功能。</p><blockquote><h1 id="IDM-v6-35"><a href="#IDM-v6-35" class="headerlink" title="IDM v6.35"></a><strong>IDM v6.35</strong></h1></blockquote><p>大家无需安装复杂的插件流程。只需要将我们提前准备好的IDM绿化版安装即可。早上原本是不限速，可以达到3-6M，经过一早上的调试，突破了高速下载通道达到了峰值12m！实测速度如下：</p><p><img src="/" alt="" class="lazyload" data-src="1.png"><br><img src="/" alt="" class="lazyload" data-src="14.jfif"></p><p>官网：<a href="http://www.internetdownloadmanager.com/" target="_blank" rel="noopener">http://www.internetdownloadmanager.com/</a></p><p>该软件官网一台电脑终身授权 175￥，但是可以对得起它的价值，实际体验真的非常棒！如有资本，还望支持正版！</p><p><img src="/" alt="" class="lazyload" data-src="3.png"><br><img src="/" alt="" class="lazyload" data-src="2.jfif"><br><img src="/" alt="" class="lazyload" data-src="4.jfif"></p><p>下载并解压IDM压缩包后，双击打开绿化卸载.exe</p><p><img src="/" alt="" class="lazyload" data-src="5.jfif"></p><p>弹出命令窗口，输入数字<strong>【1】</strong>回车；等待片刻后提示绿化完成，之后<strong>关闭该窗口</strong>即可，这样IDM就已经安装好了</p><p><img src="/" alt="" class="lazyload" data-src="6.png"></p><p>按指示集合到浏览器</p><p><img src="/" alt="" class="lazyload" data-src="7.jfif"><br><img src="/" alt="" class="lazyload" data-src="8.jfif"></p><p>打开软件，点击 <strong>关于IDM</strong>，成功激活状态，完美！</p><p><img src="/" alt="" class="lazyload" data-src="9.png"><br><img src="/" alt="" class="lazyload" data-src="10.jfif"></p><p>点击 选项，简单设置一下，捕获哪些浏览器的下载行为，以及其他设置</p><p><img src="/" alt="" class="lazyload" data-src="11.jfif"></p><p>如果实际没有捕获下载行为，可以自己手动新建任务，复制粘贴下载地址</p><p><img src="/" alt="" class="lazyload" data-src="12.png"></p><p>好了，以上就是今天的分享内容，如果对你有帮助的话，分享到朋友圈让更多的朋友知道！有了大家的支持小编我才有更大的动力分享更多好玩有趣的干货黑科技资源！</p><h1 id="资源获取方式"><a href="#资源获取方式" class="headerlink" title="资源获取方式"></a><a href="https://www.lanzous.com/iac700j" target="_blank" rel="noopener"><strong>资源获取方式</strong></a></h1><p><strong>密码:  h1yd</strong></p><p><strong>原文链接</strong>：<a href="https://mp.weixin.qq.com/s/vRS_nmyY-KkcTzcn-OP8Gg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/vRS_nmyY-KkcTzcn-OP8Gg</a></p><p><strong>关注Hugo,获取更多资讯</strong></p><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;今天给大家分享的是一款享誉世界的下载神器，绿色版：IDM v6.35 ，适用于 Windows&lt;/p&gt;
-&lt;p&gt;Internet Download Manager，全球最流行的下载工具。Internet Download Manager (简称IDM) Windows 平台功
-      
-    
-    </summary>
-    
-    
-      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
-    
-    
-      <category term="下载" scheme="https://hugoyzc.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
