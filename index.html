@@ -199,23 +199,24 @@ cFosSpeed官方最新正式版发布，一款网络加速器，加快数据吞�
 POWERMODE.shake = true;
 document.body.addEventListener('input', POWERMODE);
 </script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>let subtitleEffect = true
-fetch('https://api.ooopn.com/ciba/api.php',)
+fetch('https://v1.hitokoto.cn')
 .then(function (res){
   return res.json();
 })
 .then(function (data) {
   if (subtitleEffect){
+    let from = '出自 ' + data.from
     let sub = '今日事&#44;今日畢,Never put off till tomorrow what you can do today'.length == 0  ? new Array() : '今日事&#44;今日畢,Never put off till tomorrow what you can do today'.split(",");
-    let both = sub.unshift(data['ciba-en'],data.ciba)
+    let both = sub.unshift(data.hitokoto,from)  
     let typed = new Typed("#subtitle", {
       strings: sub,
       startDelay: 300,
       typeSpeed: 150,
-      loop: false,
+      loop: true,
       backSpeed: 50
     });
   }else{
-    document.getElementById("subtitle").innerHTML = data['ciba-en']
+    document.getElementById("subtitle").innerHTML = data.hitokoto        
   }
 })
 .catch(function (err) {
