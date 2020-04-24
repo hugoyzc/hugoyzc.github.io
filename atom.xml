@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hugoyzc.github.io/"/>
-  <updated>2020-04-23T04:49:36.501Z</updated>
+  <updated>2020-04-24T02:52:38.324Z</updated>
   <id>https://hugoyzc.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器提速N倍，爽爽爽爽爽爽爆了！</title>
+    <link href="https://hugoyzc.github.io/2020/04/24/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%90%E9%80%9FN%E5%80%8D%EF%BC%8C%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%86%E4%BA%86%EF%BC%81/"/>
+    <id>https://hugoyzc.github.io/2020/04/24/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%90%E9%80%9FN%E5%80%8D%EF%BC%8C%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%BD%E7%88%86%E4%BA%86%EF%BC%81/</id>
+    <published>2020-04-24T02:34:29.000Z</published>
+    <updated>2020-04-24T02:52:38.324Z</updated>
+    
+    <content type="html"><![CDATA[<p>当我们想让浏览器有更好的使用，肯定离不开许多插件的安装。这一来，浏览器插件就显得很丰富了。</p><p>就像手机APP一样，或者是电脑开机的启动项，软件多和插件多是一个道理，都会影响速度。特别特别是启动速度！</p><p>其实启动速度慢那么两三秒，对我是实际上没啥影响，两三秒真就是眨眨眼睛的事情，确实不差这几秒。</p><p><strong>但心里面又很不舒服，我以前双击之后一秒不到，软件直接打开；现在还得专门反应四五秒，看上去不爽！不利落！</strong></p><p>那咋整，又想继续用浏览器继续用这些插件、还想让启动速度更快，可以兼得吗？</p><h1 id="SpeedyFox"><a href="#SpeedyFox" class="headerlink" title="SpeedyFox"></a><strong>SpeedyFox</strong></h1><p>一款很简单的优化浏览器启动速度的软件，理论上支持所有浏览器，实际中可以自动检测到电脑的谷歌、百分、星愿、火狐等浏览器。</p><p>优化之后，效果是立竿见影的！</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/ac44eebf6bb2428580e68ff46fa47123"></p><p>工具的原理是将浏览器的数据碎片进行优化合并，所有浏览器都一样，使用时间长了都会堆积一些垃圾碎片。</p><p>如果你感知非常不明显，那一定是电脑配置了得，配置一般的电脑都会碰到这种麻烦事，时间越长、启动越慢！</p><p>谁不想拥有更畅快的速度啊，又能提高效率用起来还舒服~</p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a><strong>使用方法</strong></h1><p>这款工具的使用难易度，要比你想象中还简单！</p><p>打开工具的一瞬间，他就已经将电脑中支持/需要优化速度的浏览器呈列出来了。可以看到，这台电脑是火狐、谷歌、百分浏览器。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/ac44eebf6bb2428580e68ff46fa47123"></p><p>鼠标点击右侧的优化，工具就能全自动进行优化整合，速度非常快。当然在开始优化前建议做两件事情：</p><p>第一，你可以在优化之前先自己感受一下，各个浏览器启动速度的快慢，毕竟没有对比没有伤害；</p><p>第二，在优化前需要手动关闭正在运行的所有浏览器，否则会有优化失败的提示，其他软件不受影响只有浏览器。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/a383bd7a27a1461899bdfa5f94b57df4"></p><p>完成这些，直接优化即可。</p><p><strong>整个优化过程只耗费了0.78秒，清理的碎片缓存可能不算太大，但真的优化了启动速度。</strong></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/acc419a092a14c539a3b0c0aa739785d"></p><p>我的浏览器平时需要耗费2~3秒才能打开，优化之后立刻见效，一秒不到直接启动！</p><p>你可能不太相信啊，毕竟我一直在以文字阐述，但老殁这里也不太好展示，有兴趣试试就好！你会感到惊喜的</p><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a><strong>结语</strong></h1><p>尤其适用于配置偏低的电脑，因为确实能更明显的看到优化前后的差距。一开始我也不信，亲身体验后：真香！</p><p>工具多久用一次呢？这个没有限定，你要觉得浏览器速度偏慢了，就开启工具优化一次，那在很长一段时间内都是有效的。</p><h1 id="SpeedyFox-下载地址"><a href="#SpeedyFox-下载地址" class="headerlink" title="SpeedyFox   下载地址"></a><strong>SpeedyFox   下载地址</strong></h1><p><a href="https://lanzous.com/b0ddyryob" target="_blank" rel="noopener">https://lanzous.com/b0ddyryob</a> </p><p>密码:9rg0</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;当我们想让浏览器有更好的使用，肯定离不开许多插件的安装。这一来，浏览器插件就显得很丰富了。&lt;/p&gt;
+&lt;p&gt;就像手机APP一样，或者是电脑开机的启动项，软件多和插件多是一个道理，都会影响速度。特别特别是启动速度！&lt;/p&gt;
+&lt;p&gt;其实启动速度慢那么两三秒，对我是实际上没啥影响，
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="浏览器优化" scheme="https://hugoyzc.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>WPS多省市党政机关专版（WPS官网直链)</title>
@@ -545,35 +573,6 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://9em.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://9em.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;9em.org 来自不死鸟微
-      
-    
-    </summary>
-    
-    
-      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
-    
-    
-      <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
-    
-      <category term="网页工具" scheme="https://hugoyzc.github.io/tags/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最新可用的二维码生成 api</title>
-    <link href="https://hugoyzc.github.io/2020/02/26/%E6%9C%80%E6%96%B0%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%20api/"/>
-    <id>https://hugoyzc.github.io/2020/02/26/%E6%9C%80%E6%96%B0%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%20api/</id>
-    <published>2020-02-26T05:00:04.000Z</published>
-    <updated>2020-04-22T08:01:42.943Z</updated>
-    
-    <content type="html"><![CDATA[<p>支持 https 的二维码 api 服务并不多，这里是经过站长精心筛选后剩下的结果。推荐日常使用搜狐视频提供的二维码 api 接口，稳定性很好。</p><p>使用方法很简单，替换 <code>hugoyzc.xyz</code> 为想要生成的<strong>文字或链接</strong>即可。</p><h2 id="https-二维码生成-api"><a href="#https-二维码生成-api" class="headerlink" title="https 二维码生成 api"></a>https 二维码生成 api</h2><blockquote><p>搜狐视频提供的二维码 api，已稳定五年以上。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;my.tv.sohu.com&#x2F;user&#x2F;a&#x2F;wvideo&#x2F;getQRCode.do?text&#x3D;http:&#x2F;&#x2F;hugoyzc.xyz</span><br></pre></td></tr></table></figure><p><img src="/" alt="如果无法显示二维码说明二维码api已经失效" class="lazyload" data-src="https://my.tv.sohu.com/user/a/wvideo/getQRCode.do?text=http://hugoyzc.xyz"></p><blockquote><p>搜狐快站提供的二维码 api，已稳定两年以上。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.kuaizhan.com&#x2F;common&#x2F;encode-png?large&#x3D;true&amp;data&#x3D;http:&#x2F;&#x2F;hugoyzc.xyz</span><br></pre></td></tr></table></figure><p><img src="/" alt="如果无法显示二维码说明二维码api已经失效" class="lazyload" data-src="https://www.kuaizhan.com/common/encode-png?large=true&data=http://hugoyzc.xyz"></p><blockquote><p>qrserver 提供的二维码 api，国外服务，已稳定五年以上。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;api.qrserver.com&#x2F;v1&#x2F;create-qr-code&#x2F;?size&#x3D;150%C3%97150&amp;data&#x3D;http:&#x2F;&#x2F;hugoyzc.xyz</span><br></pre></td></tr></table></figure><p><img src="/" alt="如果无法显示二维码说明二维码api已经失效" class="lazyload" data-src="https://api.qrserver.com/v1/create-qr-code/?size=150%C3%97150&data=http://hugoyzc.xyz"></p><blockquote><p>qrcoder 提供的二维码 api，国外服务，已稳定五年以上。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;www.qrcoder.co.uk&#x2F;api&#x2F;v1&#x2F;?text&#x3D;http:&#x2F;&#x2F;hugoyzc.xyz</span><br></pre></td></tr></table></figure><p><img src="/" alt="如果无法显示二维码说明二维码api已经失效" class="lazyload" data-src="https://www.qrcoder.co.uk/api/v1/?text=http://hugoyzc.xyz"></p><blockquote><p><code>p</code>= 二维码尺寸，可选范围 1-40 已稳定有两年左右。</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;api.isoyu.com&#x2F;qr&#x2F;?m&#x3D;0&amp;e&#x3D;L&amp;p&#x3D;10&amp;url&#x3D;http:&#x2F;&#x2F;hugoyzc.xyz</span><br></pre></td></tr></table></figure><p><img src="/" alt="如果无法显示二维码说明二维码api已经失效" class="lazyload" data-src="https://api.isoyu.com/qr/?m=0&e=L&p=10&url=http://hugoyzc.xyz"></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;支持 https 的二维码 api 服务并不多，这里是经过站长精心筛选后剩下的结果。推荐日常使用搜狐视频提供的二维码 api 接口，稳定性很好。&lt;/p&gt;
-&lt;p&gt;使用方法很简单，替换 &lt;code&gt;hugoyzc.xyz&lt;/code&gt; 为想要生成的&lt;strong&gt;文字或链接&lt;/
       
     
     </summary>
