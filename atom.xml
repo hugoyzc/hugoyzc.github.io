@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hugoyzc.github.io/"/>
-  <updated>2020-04-26T08:10:53.468Z</updated>
+  <updated>2020-04-28T03:43:48.070Z</updated>
   <id>https://hugoyzc.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>V2RAY SETUP GUIDE</title>
+    <link href="https://hugoyzc.github.io/2020/04/28/V2RAY%20SETUP%20GUIDE/"/>
+    <id>https://hugoyzc.github.io/2020/04/28/V2RAY%20SETUP%20GUIDE/</id>
+    <published>2020-04-28T03:28:33.000Z</published>
+    <updated>2020-04-28T03:43:48.070Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>Easy and friendly setup guide for v2ray.<br>简单易懂的V2ray用户使用教程.</strong></p></blockquote><h3 id="WINDOWS设备V2RAY使用教程"><a href="#WINDOWS设备V2RAY使用教程" class="headerlink" title="WINDOWS设备V2RAY使用教程"></a>WINDOWS设备V2RAY使用教程</h3><p>前言：您需要确保网络畅通，windows7以上系统，大致流程为下载软件，配置节点信息，开始使用。如果您仔细阅读并遵从所有步骤，一般仅需10－15分钟。<br>当然，您还需要可用的节点信息，一般可从v2ray提供商页面获取。</p><hr><h4 id="第一步，下载用于WINDOWS设备的V2RAY软件"><a href="#第一步，下载用于WINDOWS设备的V2RAY软件" class="headerlink" title="第一步，下载用于WINDOWS设备的V2RAY软件"></a>第一步，下载用于WINDOWS设备的V2RAY软件</h4><p>点击此处下载软件压缩包，下载后解压至任意目录</p><table><thead><tr><th align="left">描述/DESCRIPTION</th><th align="left">链接/LINKS</th></tr></thead><tbody><tr><td align="left">32位和64位版本（最新版包含V2Ray核心）</td><td align="left"><a href="https://book.v2rayx.org/download/v2rayN-windows.zip" target="_blank" rel="noopener">Here</a></td></tr></tbody></table><p>值得注意：软件由两个部份组成，一部分为v2ray核心程序，另外一部分为v2ray客户端界面程序，我们为了方便起见，已合并两部分并形成压缩包（即上面提供的压缩包文件），并且隔日同步更新Github最新版本。如果您不放心或者需要所有版本，可参考下面链接前往Github页面获得最新程序，下载解压，并确保解压后的文件位于同一个文件夹，切记。</p><table><thead><tr><th align="left">描述/DESCRIPTION</th><th align="left">链接/LINKS</th></tr></thead><tbody><tr><td align="left">v2ray核心程序—v2raycore，请注意区别64位和32位版本</td><td align="left"><a href="https://github.com/v2ray/v2ray-core/releases" target="_blank" rel="noopener">Here</a></td></tr><tr><td align="left">v2ray界面程序—v2rayN</td><td align="left"><a href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="noopener">Here</a></td></tr><tr><td align="left">v2ray界面程序—v2rayW，于v2rayN作用相同，二者选其一即可</td><td align="left"><a href="https://github.com/Cenmrev/V2RayW/releases" target="_blank" rel="noopener">Here</a></td></tr></tbody></table><p>其他：程序运行需要Microsoft .NET Framework 4.5或者更高版本，如果提示相关问题无法运行，请前往Microsoft官网获取下载安装相应软件，<a href="http://go.microsoft.com/fwlink/p/?LinkId=245484" target="_blank" rel="noopener">参考链接</a></p><h4 id="第二步，打开程序文件V2RAYN-EXE，配置节点信息"><a href="#第二步，打开程序文件V2RAYN-EXE，配置节点信息" class="headerlink" title="第二步，打开程序文件V2RAYN.EXE，配置节点信息"></a>第二步，打开程序文件V2RAYN.EXE，配置节点信息</h4><p>目前主要有三种配置节点信息的方法，可以根据妳的习惯和需要选择</p><table><thead><tr><th align="left">方法/METHOD</th><th align="left">描述/DESCRIPTION</th><th align="left">前往/GO</th></tr></thead><tbody><tr><td align="left">订阅方式/Subscription</td><td align="left">配置订阅服务器，可一次性从商家获取最新的所有节点信息，并可每次启动自动更新，推荐</td><td align="left"><a href="https://book.v2rayx.org/index.html#subscription" target="_blank" rel="noopener">Here</a></td></tr><tr><td align="left">扫二维码配置/Scan</td><td align="left">通过扫描屏幕中的二维码，自动配置，每次仅配置单个节点</td><td align="left"><a href="https://book.v2rayx.org/index.html#scan" target="_blank" rel="noopener">Here</a></td></tr><tr><td align="left">手动配置/Manually</td><td align="left">增加新节点，并逐一配置相关节点信息</td><td align="left"><a href="https://book.v2rayx.org/index.html#manually" target="_blank" rel="noopener">Here</a></td></tr></tbody></table><h1 id="方法一，订阅方式"><a href="#方法一，订阅方式" class="headerlink" title="*方法一，订阅方式 *"></a>*<em>方法一，订阅方式 *</em></h1><p>打开应用程式v2rayN.exe，注意是v2rayN不是v2ray，点击“订阅”－“订阅设置”</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-subscribe-01.png"></p><p>输入备注和地址信息，备注可自定义，一般填提供商名称，方便识别，地址填商家提供的订阅地址，确定保存</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-subscribe-02.png"></p><p>点击“订阅”－“更新订阅”，可立即一次性获取该订阅来源的所有节点信息</p><p>选择任意节点，右下角任务栏，点击程序图标，调出菜单，确保勾选“启用http代理”，以及选择一种代理模式</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-manually-03.png"></p><p>完成，可打开浏览器访问网址测试</p><h1 id="方法二，扫码配置"><a href="#方法二，扫码配置" class="headerlink" title="方法二，扫码配置"></a><strong>方法二，扫码配置</strong></h1><p>首先网页上打开v2ray节点的二维码图片</p><p>然后打开应用程式v2rayN.exe，注意是v2rayN不是v2ray，点击“服务器”－“扫描屏幕上的二维码”</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-scan-01.png"></p><p>程序自动识别二维码并导入服务器节点信息</p><p>选择节点，右下角任务栏，点击程序图标，调出菜单，确保勾选“启用http代理”，以及选择一种代理模式</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-manually-03.png"></p><p>完成，可打开浏览器访问网址测试</p><h1 id="方法三，手动配置"><a href="#方法三，手动配置" class="headerlink" title="方法三，手动配置"></a><strong>方法三，手动配置</strong></h1><p>打开应用程式v2rayN.exe，注意是v2rayN不是v2ray，点击“服务器”－“添加Vmess服务器”</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-manually-01.png"></p><p>根据提供商提供的节点信息，填入地址／端口／用户ID／额外ID，别名可自命名，然后确定保存</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-manually-02.jpg"></p><p>右下角任务栏，点击程序图标，调出菜单，确保勾选“启用http代理”，以及选择一种代理模式</p><p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/win-manually-03.png"></p><p>完成，可打开浏览器访问网址测试</p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Easy and friendly setup guide for v2ray.&lt;br&gt;简单易懂的V2ray用户使用教程.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;WINDOWS设备V2RAY使用教程&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="科学上网" scheme="https://hugoyzc.github.io/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    
+      <category term="SSR" scheme="https://hugoyzc.github.io/tags/SSR/"/>
+    
+      <category term="资讯" scheme="https://hugoyzc.github.io/tags/%E8%B5%84%E8%AE%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>最佳录屏神器，解除会员，绿色便携，又一款不可多得的精品！</title>
@@ -545,34 +576,6 @@
       <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
     
       <category term="网页工具" scheme="https://hugoyzc.github.io/tags/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公共 BitTorrent Tracker</title>
-    <link href="https://hugoyzc.github.io/2020/02/29/%E5%85%AC%E5%85%B1%20BitTorrent%20Tracker/"/>
-    <id>https://hugoyzc.github.io/2020/02/29/%E5%85%AC%E5%85%B1%20BitTorrent%20Tracker/</id>
-    <published>2020-02-29T02:31:27.000Z</published>
-    <updated>2020-04-22T08:02:40.992Z</updated>
-    
-    <content type="html"><![CDATA[<p>公共 <strong>BitTorrent Tracker</strong> 列表全文来自：<a href="https://trackerslist.com/#/zh" target="_blank" rel="noopener">TrackersList 官网</a> 由 Github：<a href="https://github.com/XIU2/" target="_blank" rel="noopener">XIU2</a> 维护。</p><h2 id="Aria2-Tracker"><a href="#Aria2-Tracker" class="headerlink" title="Aria2 Tracker"></a>Aria2 Tracker</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;trackerslist.com&#x2F;all_aria2.txt</span><br></pre></td></tr></table></figure><h2 id="BitTorrent-Tracker"><a href="#BitTorrent-Tracker" class="headerlink" title="BitTorrent Tracker"></a>BitTorrent Tracker</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;trackerslist.com&#x2F;all.txt</span><br></pre></td></tr></table></figure><blockquote><p>其他自动更新列表</p></blockquote><p><a href="http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt" target="_blank" rel="noopener">http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt</a><br><a href="https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt" target="_blank" rel="noopener">https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt</a></p><p>BitTorrent Tracker 列表可根据自己体验情况选择使用哪个列表，上面的 3 个列表都是每天更新，在这里感谢这些默默维护列表的大佬们。</p><h2 id="如何使用？"><a href="#如何使用？" class="headerlink" title="如何使用？"></a>如何使用？</h2><p><strong>Aria2</strong></p><p>复制 Aria2 格式的 Tracker 文件中内容后，粘贴到 <code>aria2.conf</code> 配置文件中的 <code>bt-tracker=</code> 后面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt-tracker&#x3D;http:&#x2F;&#x2F;xxx.xx:80&#x2F;announce,udp:&#x2F;&#x2F;yyy.yy:80&#x2F;announce</span><br></pre></td></tr></table></figure><p>注意： 粘贴前请先删除旧的种子 Tracker 内容，避免格式错误！</p><p><strong>BitComet (比特彗星)</strong></p><p>比特彗星便携版 (已配置 Tracker)：<a href="https://lanzous.com/b073c7g4f" target="_blank" rel="noopener">https://lanzous.com/b073c7g4f</a></p><p><img src="/" alt="请输入图片描述" class="lazyload" data-src="https://tva2.sinaimg.cn/large/6f8a2832gy1ga5tp502d8j20tl0bfwer.jpg"></p><p><strong>工具 - 选项 - Tracker</strong></p><p>勾选两个选项 并在最下方输入框填写 Tracker URL，然后点击 [立即更新] 按钮后，上面的大输入框就会显示获取的 Tracker 了。</p><p><img src="/" alt="请输入图片描述" class="lazyload" data-src="https://tva2.sinaimg.cn/large/6f8a2832gy1ga5tpdj0kvj20n00jkt9a.jpg"></p><p><strong>qBittorrent Enhanced Edition (增强版)</strong><br><img src="/" alt="请输入图片描述" class="lazyload" data-src="https://tva2.sinaimg.cn/large/6f8a2832gy1ga5tpliv3nj20qi05zjrb.jpg">Github：<a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition" target="_blank" rel="noopener">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></p><p>基于 qBittorrent 制作，增加了很多功能，例如 订阅 Tracker URL 功能，可以很方便的配合本项目使用。</p><p>选项 [齿轮图标] - BitTorrent 并填写 Tracker URL 后点击 [Apply] 保存，然后重启 qBittorrentEE 。</p><p><img src="/" alt="请输入图片描述" class="lazyload" data-src="https://tva2.sinaimg.cn/large/6f8a2832gy1ga5tpqk0bij20q80lp0t5.jpg"></p><h2 id="Tracker-连不上？"><a href="#Tracker-连不上？" class="headerlink" title="Tracker 连不上？"></a>Tracker 连不上？</h2><p>这是正常现象。目前网上热门的 Tracker 大都是国外服务器。</p><ul><li>一方面 是一些国外 Tracker 服务器国内链接质量不行（丢包、速度慢、干扰等）。</li></ul><p>（我发现 HTTPS 的链接成功率更高，HTTP 这种明文的 以及 UDP 这种经常被运营商干扰、限制的就很蛋疼了）</p><ul><li>一方面 是一些国外 Tracker 服务器屏蔽了国内连接（迅雷丢人丢到国外了）。</li><li>一方面 是这些国外 Tracker 服务器没有你下载的资源信息。</li></ul><p>况且 Tracker 数量多少不会影响 BT 软件运行的（都是多线程连接），所以也不需要在意这些连不上的，软件重试几次连不上就忽略了。</p><h2 id="下载速度慢？"><a href="#下载速度慢？" class="headerlink" title="下载速度慢？"></a>下载速度慢？</h2><p>BT 下载速度取决于 其他下载同一资源的用户上传速度。</p><p>也就是做种的人越多（做种就是上传文件给他人），你的下载速度越快！如果一个资源没人提供上传，你就会完全没有下载速度。</p><p>做种： 指上传文件数据给其他 BT 用户的行为。</p><p>Tracker 的作用就是更快的找到其他下载同一资源的用户，并帮助你们之间建立链接，间接提高 BT 下载速度（前提是有人做种）。</p><p>不仅仅要关注用户数量，还有用户质量，国内绝大部分人都没有公网 IP，所以上传速度捉急 [没有公网 IP 仅影响上传速度，几乎不影响下载速度]，另一方面也是奸商运营商上传不对等，除此之外还老是限制 / 干扰 BT，这也是为什么国内 BT 环境这么差的主要原因。</p><h2 id="Tracker-来源"><a href="#Tracker-来源" class="headerlink" title="Tracker 来源"></a>Tracker 来源</h2><p>该项目汇集了以下公共跟踪器列表：</p><p><a href="https://github.com/ngosang/trackerslist" target="_blank" rel="noopener">https://github.com/ngosang/trackerslist</a><br><a href="https://newtrackon.com/list" target="_blank" rel="noopener">https://newtrackon.com/list</a><br><a href="https://torrents.io/tracker-list/" target="_blank" rel="noopener">https://torrents.io/tracker-list/</a><br><a href="http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt" target="_blank" rel="noopener">http://github.itzmx.com/1265578519/OpenTracker/master/tracker.txt</a><br><a href="https://tinytorrent.net/best-torrent-tracker-list-updated/" target="_blank" rel="noopener">https://tinytorrent.net/best-torrent-tracker-list-updated/</a><br><a href="https://torrenttrackerss.com/torrent-tracker-list/" target="_blank" rel="noopener">https://torrenttrackerss.com/torrent-tracker-list/</a><br><a href="http://www.torrenttrackerlist.com/torrent-tracker-list" target="_blank" rel="noopener">http://www.torrenttrackerlist.com/torrent-tracker-list</a></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;公共 &lt;strong&gt;BitTorrent Tracker&lt;/strong&gt; 列表全文来自：&lt;a href=&quot;https://trackerslist.com/#/zh&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TrackersList 官网&lt;/a&gt; 
-      
-    
-    </summary>
-    
-    
-      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
-    
-    
-      <category term="网页工具" scheme="https://hugoyzc.github.io/tags/%E7%BD%91%E9%A1%B5%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="下载" scheme="https://hugoyzc.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
