@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IOS设备(IPHONE/IPAD)V2RAY使用教程 | Hugo</title><meta name="description" content="IOS设备(IPHONE/IPAD)V2RAY使用教程"><meta name="keywords" content="SSR,资讯"><meta name="author" content="Hugo"><meta name="copyright" content="Hugo"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="IOS设备(IPHONE/IPAD)V2RAY使用教程"><meta name="twitter:description" content="IOS设备(IPHONE/IPAD)V2RAY使用教程"><meta name="twitter:image" content="https://img.anfensi.com/upload/2018-7/20187111315435117.jpg"><meta property="og:type" content="article"><meta property="og:title" content="IOS设备(IPHONE/IPAD)V2RAY使用教程"><meta property="og:url" content="https://hugoyzc.github.io/2020/05/08/IOS%E8%AE%BE%E5%A4%87-IPHONE-IPAD-V2RAY%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"><meta property="og:site_name" content="Hugo"><meta property="og:description" content="IOS设备(IPHONE/IPAD)V2RAY使用教程"><meta property="og:image" content="https://img.anfensi.com/upload/2018-7/20187111315435117.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://hugoyzc.github.io/2020/05/08/IOS%E8%AE%BE%E5%A4%87-IPHONE-IPAD-V2RAY%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"><link rel="prev" title="Get Shadowrocket" href="https://hugoyzc.github.io/2020/05/08/Get%20Shadowrocket/"><link rel="next" title="五一假期看什么？这款国产Chrome插件看片神器，支持在线播放和下载影音资源" href="https://hugoyzc.github.io/2020/05/04/%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F%E7%9C%8B%E4%BB%80%E4%B9%88%EF%BC%9F%E8%BF%99%E6%AC%BE%E5%9B%BD%E4%BA%A7Chrome%E6%8F%92%E4%BB%B6%E7%9C%8B%E7%89%87%E7%A5%9E%E5%99%A8%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E5%92%8C%E4%B8%8B%E8%BD%BD%E5%BD%B1%E9%9F%B3%E8%B5%84%E6%BA%90/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Hugo" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">37</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#IOS设备-IPHONE-IPAD-V2RAY使用教程"><span class="toc-number">1.</span> <span class="toc-text">IOS设备(IPHONE&#x2F;IPAD)V2RAY使用教程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#第一步，下载用于IOS设备的V2RAY软件"><span class="toc-number">1.1.</span> <span class="toc-text">第一步，下载用于IOS设备的V2RAY软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二步，打开SHADOWROCKET，配置节点信息"><span class="toc-number">1.2.</span> <span class="toc-text">第二步，打开SHADOWROCKET，配置节点信息</span></a></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="post-bg" id="nav" style="background-image: url(https://img.anfensi.com/upload/2018-7/20187111315435117.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Hugo</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">IOS设备(IPHONE/IPAD)V2RAY使用教程</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-05-08<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-08</time><span class="post-meta__separator">|</span><span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">科学上网</a></span><div class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">846</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>阅读时长: 2 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><h1 id="IOS设备-IPHONE-IPAD-V2RAY使用教程"><a href="#IOS设备-IPHONE-IPAD-V2RAY使用教程" class="headerlink" title="IOS设备(IPHONE/IPAD)V2RAY使用教程"></a><strong>IOS设备(IPHONE/IPAD)V2RAY使用教程</strong></h1><p>前言：您需要确保网络畅通，下载软件，配置节点信息，开始使用。<br>如果您仔细阅读并遵从所有步骤，一般仅需10－15分钟。<br>当然，您还需要可用的节点信息，一般可从v2ray提供商页面获取。</p>
+<h2 id="第一步，下载用于IOS设备的V2RAY软件"><a href="#第一步，下载用于IOS设备的V2RAY软件" class="headerlink" title="第一步，下载用于IOS设备的V2RAY软件"></a><strong>第一步，下载用于IOS设备的V2RAY软件</strong></h2><p>下述多款App均可使用，一般用户推荐使用shadowrocket</p>
+<table>
+<thead>
+<tr>
+<th align="left">描述/DESCRIPTION</th>
+<th align="left">APPSTORE下载/LINKS</th>
+<th align="left">非官方</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">shadowrocket $2.99</td>
+<td align="left"><a href="https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8" target="_blank" rel="noopener">Appstore(需要非国区帐号)</a></td>
+<td align="left"><a href="https://free.shadowrocket.online/" target="_blank" rel="noopener">第三方(无需帐号，免费)</a></td>
+</tr>
+<tr>
+<td align="left">Kitsunebi $4.99</td>
+<td align="left"><a href="https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8" target="_blank" rel="noopener">Appstore(需要非国区帐号)</a></td>
+<td align="left"><a href="https://apps.kitsunebi.online/" target="_blank" rel="noopener">第三方(无需帐号，免费)</a></td>
+</tr>
+<tr>
+<td align="left">Quantumult $4.99</td>
+<td align="left"><a href="https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8" target="_blank" rel="noopener">Appstore(需要非国区帐号)</a></td>
+<td align="left">None</td>
+</tr>
+</tbody></table>
+<p>说明：以上App均无法在Appstore中国区购买下载，您可以注册美区／香港区Appstore帐号，付款方式选none，帐单地址信息可于google地图获取，然后从淘宝购买GiftCards充值此Appstore帐号，再购买下载App</p>
+<p>如果没有非中国区帐号，可通过第三方提供的方式下载，其原理是共享下载帐号，可按页面提示操作，放心使用</p>
+<h2 id="第二步，打开SHADOWROCKET，配置节点信息"><a href="#第二步，打开SHADOWROCKET，配置节点信息" class="headerlink" title="第二步，打开SHADOWROCKET，配置节点信息"></a><strong>第二步，打开SHADOWROCKET，配置节点信息</strong></h2><p>目前主要有三种配置节点信息的方法，可以根据妳的习惯和需要选择</p>
+<table>
+<thead>
+<tr>
+<th align="left">方法/METHOD</th>
+<th align="left">描述/DESCRIPTION</th>
+<th align="left">前往/GO</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">订阅方式/Subscription</td>
+<td align="left">配置订阅服务器，可一次性从商家获取最新的所有节点信息，并可每次启动自动更新，推荐</td>
+<td align="left"><a href="https://book.v2rayx.org/ios.html#subscription" target="_blank" rel="noopener">Here</a></td>
+</tr>
+<tr>
+<td align="left">扫二维码配置/Scan</td>
+<td align="left">通过扫描屏幕中的二维码，自动配置，每次仅配置单个节点</td>
+<td align="left"><a href="https://book.v2rayx.org/ios.html#scan" target="_blank" rel="noopener">Here</a></td>
+</tr>
+<tr>
+<td align="left">手动配置/Manually</td>
+<td align="left">增加新节点，并逐一配置相关节点信息</td>
+<td align="left"><a href="https://book.v2rayx.org/ios.html#manually" target="_blank" rel="noopener">Here</a></td>
+</tr>
+</tbody></table>
+<p><strong>方法一，订阅方式</strong></p>
+<p>打开shadowrocket－首页，右上角点“+”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-01.png"></p>
+<p>点“类型”，选择“Subscribe”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-02.png"></p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-03.png"></p>
+<p>URL填提供商那边得到的订阅地址，备注可注明提供商的名称，方便识别，然后右上角点“完成”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-04.png"></p>
+<p>填加完成后，会立即从订阅地址中获取节点信息，选择任意节点，向右滑动连结</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-05.png"></p>
+<p>首次连结，系统会询问是否允许，点“Allow”，如果提示输入密码，则输入锁屏密码，接下来显示“已连接”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-06.png"></p>
+<p>完成，可打开浏览器访问网址测试</p>
+<p>可在“设置”－“服务器订阅”中开启“打开时更新”，则每次打开App会自动更新订阅</p>
+<p><strong>方法二，扫码配置</strong></p>
+<p>首先在提供商网页上打开v2ray节点的二维码图片</p>
+<p>然后shadowrocket－首页，点左上角</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-scan-01.png"></p>
+<p>程序自动识别二维码并导入服务器节点信息</p>
+<p>选择节点，向右滑动连结</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-subscribe-06.png"></p>
+<p>首次连结，系统会询问是否允许，点“Allow”，如果提示输入密码，则输入锁屏密码，接下来显示“已连接”</p>
+<p>完成，可打开浏览器访问网址测试</p>
+<p><strong>方法三，手动配置</strong></p>
+<p>打开shadowrocket－首页，右上角点“+”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-01.png"></p>
+<p>点“类型”，选择“Vmess”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-02.png"></p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-03.png"></p>
+<p>根据提供商提供的节点信息，填入服务器／端口／UUID，其他没有点不用改，备注可自命名，然后点“完成”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-04.png"></p>
+<p>选择节点，向右滑动连结</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-05.png"></p>
+<p>首次连结，系统会询问是否允许，点“Allow”，如果提示输入密码，则输入锁屏密码，接下来显示“已连接”</p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-06.png"></p>
+<p><img src="/" alt="img" class="lazyload" data-src="https://book.v2rayx.org/images/ios-manually-07.png"></p>
+<p>完成，可打开浏览器访问网址测试</p>
+<hr>
+<p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Hugo</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://hugoyzc.github.io/2020/05/08/IOS%E8%AE%BE%E5%A4%87-IPHONE-IPAD-V2RAY%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">https://hugoyzc.github.io/2020/05/08/IOS设备-IPHONE-IPAD-V2RAY使用教程/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://hugoyzc.github.io" target="_blank">Hugo</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/SSR/">SSR    </a><a class="post-meta__tags" href="/tags/%E8%B5%84%E8%AE%AF/">资讯    </a></div><div class="post_share"><div class="social-share" data-image="http://pb3.pstatp.com/large/pgc-image/ee3b341d51354431870aace1a22a7dba" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020/05/08/Get%20Shadowrocket/"><img class="prev_cover lazyload" data-src="https://free.shadowrocket.online/assets/images/icon.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Get Shadowrocket</div></div></a></div><div class="next-post pull_right"><a href="/2020/05/04/%E4%BA%94%E4%B8%80%E5%81%87%E6%9C%9F%E7%9C%8B%E4%BB%80%E4%B9%88%EF%BC%9F%E8%BF%99%E6%AC%BE%E5%9B%BD%E4%BA%A7Chrome%E6%8F%92%E4%BB%B6%E7%9C%8B%E7%89%87%E7%A5%9E%E5%99%A8%EF%BC%8C%E6%94%AF%E6%8C%81%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE%E5%92%8C%E4%B8%8B%E8%BD%BD%E5%BD%B1%E9%9F%B3%E8%B5%84%E6%BA%90/"><img class="next_cover lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/ee3b341d51354431870aace1a22a7dba" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">五一假期看什么？这款国产Chrome插件看片神器，支持在线播放和下载影音资源</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/03/24/【科-学-上-网】最新分享/" title="【科.学.上.网】最新分享"><img class="relatedPosts_cover lazyload"data-src="https://img.anfensi.com/upload/2018-7/20187111315435117.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-24</div><div class="relatedPosts_title">【科.学.上.网】最新分享</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/08/Get Kitsunebi/" title="Get Kitsunebi"><img class="relatedPosts_cover lazyload"data-src="https://apps.kitsunebi.online/assets/images/icon.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-05-08</div><div class="relatedPosts_title">Get Kitsunebi</div></div></a></div><div class="relatedPosts_item"><a href="/2020/05/08/Get Shadowrocket/" title="Get Shadowrocket"><img class="relatedPosts_cover lazyload"data-src="https://free.shadowrocket.online/assets/images/icon.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-05-08</div><div class="relatedPosts_title">Get Shadowrocket</div></div></a></div><div class="relatedPosts_item"><a href="/2020/04/28/V2RAY SETUP GUIDE/" title="V2RAY SETUP GUIDE"><img class="relatedPosts_cover lazyload"data-src="https://www.v2ray.com/resources/v2ray_1024.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-04-28</div><div class="relatedPosts_title">V2RAY SETUP GUIDE</div></div></a></div><div class="relatedPosts_item"><a href="/2020/03/24/苹果发布新产品，支持全新带触控板智能键盘/" title="苹果发布新产品，支持全新带触控板智能键盘"><img class="relatedPosts_cover lazyload"data-src="http://08imgmini.eastday.com/mobile/20200320/20200320154537_b450dabd1e84d5c809bf31f74c6766c7_1.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-03-24</div><div class="relatedPosts_title">苹果发布新产品，支持全新带触控板智能键盘</div></div></a></div></div><div class="clear_both"></div></div></article></main><footer id="footer" style="background-image: url(https://img.anfensi.com/upload/2018-7/20187111315435117.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Hugo</div><div class="theme-info"><div class="powered-by"></div></div><img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png">
+<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener">粤ICP备14057991号</a> 
+<p><b>Hi, welcome to my <a href="https://hugoyzc,github.io/" target="_blank" rel="noopener">blog</a> 
+<br>
+<a href="https://gaoding.org/cart.php?gid=1" class="item" target="_blank" style="line-height: 28px;">
+<img src="https://gaoding.org/gaoding.png" class="ui popover" style="height: 20px;margin-bottom: -4px;margin-right: 3px;display: inline-block;" title="本页面由搞定云CDN提供加速"></a>
+</div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300,"opacity":0.7},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html><!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
