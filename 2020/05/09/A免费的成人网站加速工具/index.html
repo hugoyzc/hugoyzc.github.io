@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A免费的成人网站加速工具 | Hugo</title><meta name="description" content="A免费的成人网站加速工具"><meta name="author" content="Hugo"><meta name="copyright" content="Hugo"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="robots" content="noindex"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="A免费的成人网站加速工具"><meta name="twitter:description" content="A免费的成人网站加速工具"><meta name="twitter:image" content="https://icweiliimg1.pstatp.com/weili/bl/488819530964664434.jpg"><meta property="og:type" content="article"><meta property="og:title" content="A免费的成人网站加速工具"><meta property="og:url" content="https://hugoyzc.github.io/2020/05/09/A%E5%85%8D%E8%B4%B9%E7%9A%84%E6%88%90%E4%BA%BA%E7%BD%91%E7%AB%99%E5%8A%A0%E9%80%9F%E5%B7%A5%E5%85%B7/"><meta property="og:site_name" content="Hugo"><meta property="og:description" content="A免费的成人网站加速工具"><meta property="og:image" content="https://icweiliimg1.pstatp.com/weili/bl/488819530964664434.jpg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      now = new Date();
+      hour = now.getHours();
+      isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://hugoyzc.github.io/2020/05/09/A%E5%85%8D%E8%B4%B9%E7%9A%84%E6%88%90%E4%BA%BA%E7%BD%91%E7%AB%99%E5%8A%A0%E9%80%9F%E5%B7%A5%E5%85%B7/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: false,
+  isFontAwesomeV5: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false
+}</script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Hugo" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/%E5%A4%B4%E5%83%8F.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">37</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true">     </i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#免费的成人网站加速工具"><span class="toc-number">1.</span> <span class="toc-text">免费的成人网站加速工具</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#浏览器网站"><span class="toc-number">1.1.</span> <span class="toc-text">*浏览器网站 *</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#赚钱APP"><span class="toc-number">1.2.</span> <span class="toc-text">赚钱APP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#网站导航"><span class="toc-number">1.3.</span> <span class="toc-text">*网站导航 *</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#影视下载-正规影视下载网站"><span class="toc-number">1.4.</span> <span class="toc-text">影视下载 正规影视下载网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在线视频-在线视频观看网站精选"><span class="toc-number">1.5.</span> <span class="toc-text">在线视频 在线视频观看网站精选</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#综合论坛-经典社区网站"><span class="toc-number">1.6.</span> <span class="toc-text">综合论坛 经典社区网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#海外精选-国外大站导航"><span class="toc-number">1.7.</span> <span class="toc-text">海外精选 国外大站导航</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#美图小说-图片小说同样精彩"><span class="toc-number">1.8.</span> <span class="toc-text">美图小说 图片小说同样精彩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#特色站点-有点意思的网站"><span class="toc-number">1.9.</span> <span class="toc-text">特色站点 有点意思的网站</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#工具大全-你会用到的一些辅助工具"><span class="toc-number">1.9.0.1.</span> <span class="toc-text">工具大全 你会用到的一些辅助工具</span></a></li></ol></li></ol></li></ol></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="post-bg" id="nav" style="background-image: url(https://icweiliimg1.pstatp.com/weili/bl/488819530964664434.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">Hugo</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友情</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title"><div class="posttitle">A免费的成人网站加速工具</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-05-09<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-09</time><div class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">493</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>阅读时长: 1 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></div></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><h1 id="免费的成人网站加速工具"><a href="#免费的成人网站加速工具" class="headerlink" title="免费的成人网站加速工具"></a>免费的成人网站加速工具</h1><p><strong>喜欢请收藏 ♥️</strong></p>
+<p>服务器已经升级完成，全新的服务器同时承载人数更多！喜欢本站可以分享给你的朋友就是对我最大的支持。</p>
+<h2 id="浏览器网站"><a href="#浏览器网站" class="headerlink" title="*浏览器网站 *"></a>*<em>浏览器网站 *</em></h2><p><img src="/" alt="草榴社区" class="lazyload" data-src="https://tva1.sinaimg.cn/bmiddle/0060lm7Tly1g5no5p2iomj317w0own1b.jpg"></p>
+<p><strong>草榴社区</strong>，中国最大的色情论坛</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=t66y" target="_blank" rel="noopener">安全访问</a></p>
+<p>服务器延迟「32 ms」</p>
+<p><img src="/" alt="91porn" class="lazyload" data-src="https://tva1.sinaimg.cn/bmiddle/006Xmmmgly1g5nnx8gm97j31760u0dqu.jpg"></p>
+<p><strong>91PORN</strong>，最大的自拍视频网站</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=91porn" target="_blank" rel="noopener">安全访问</a></p>
+<p>服务器延迟「10 ms」</p>
+<p><img src="/" alt="1024核工厂" class="lazyload" data-src="https://i.loli.net/2019/08/04/DxZdLJrzBQ8ojeH.png"></p>
+<p><strong>1024核工厂</strong>，BT种子下载基地</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=xp1024" target="_blank" rel="noopener">安全访问</a></p>
+<p>服务器延迟「26 ms」</p>
+<p><img src="/" alt="性吧" class="lazyload" data-src="https://tva1.sinaimg.cn/bmiddle/0060lm7Tly1g5no1yzq5sj31mg0u0qv5.jpg"></p>
+<p><strong>性吧</strong>，最全的综合色情论坛</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=sex8" target="_blank" rel="noopener">安全访问</a></p>
+<p>服务器延迟「9 ms」</p>
+<p><img src="/" alt="SexInSex" class="lazyload" data-src="https://tva1.sinaimg.cn/bmiddle/0060lm7Tly1g5no3ppmj1j31d90u0dr2.jpg"></p>
+<p><strong>SexInSex</strong>，老牌色情论坛</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=sexinsex" target="_blank" rel="noopener">安全访问</a>服务器延迟「17 ms」</p>
+<p><img src="/" alt="亚色" class="lazyload" data-src="https://tva1.sinaimg.cn/bmiddle/0060lm7Tly1g5no83boc8j318g0ntngo.jpg"></p>
+<p><strong>亚色</strong>，中文色情门户型网站</p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=yase" target="_blank" rel="noopener">安全访问</a>服务器延迟「32 ms」</p>
+<h2 id="赚钱APP"><a href="#赚钱APP" class="headerlink" title="赚钱APP"></a><strong>赚钱APP</strong></h2><p><img src="/" alt="img" class="lazyload" data-src="https://i.postimg.cc/ncyQ6dWx/91dsp.jpg"></p>
+<p><strong>王者APP</strong></p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=wzqp" target="_blank" rel="noopener">安全下载</a>注册就送29元现金</p>
+<h2 id="网站导航"><a href="#网站导航" class="headerlink" title="*网站导航 *"></a>*<em>网站导航 *</em></h2><p><strong>P.S. 深色按钮网站暂时需翻墙访问，后面会根据访问需求接入加速。</strong></p>
+<h2 id="影视下载-正规影视下载网站"><a href="#影视下载-正规影视下载网站" class="headerlink" title="影视下载 正规影视下载网站"></a>影视下载 正规影视下载网站</h2><hr>
+<p> <a href="http://hugoyzc.xyz/2020/03/19/%E5%85%8D%E8%B4%B9%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/" target="_blank" rel="noopener">免费的在线影视网站汇总</a></p>
+<p><a href="https://www.dytt8.net/" target="_blank" rel="noopener">电影天堂</a> </p>
+<p><a href="http://www.mp4ba.la/" target="_blank" rel="noopener">高清MP4吧</a> </p>
+<p><a href="http://dyb.ee/" target="_blank" rel="noopener">电影蜜蜂</a> </p>
+<p><a href="https://www.meijutt.com/" target="_blank" rel="noopener">美剧天堂</a> </p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=rarbg" target="_blank" rel="noopener">Rarbg</a></p>
+<p> <a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=thepiratebay" target="_blank" rel="noopener"><strong>海盗湾</strong></a></p>
+<h2 id="在线视频-在线视频观看网站精选"><a href="#在线视频-在线视频观看网站精选" class="headerlink" title="在线视频 在线视频观看网站精选"></a>在线视频 在线视频观看网站精选</h2><hr>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=91porn" target="_blank" rel="noopener">91porn</a> </p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=yase" target="_blank" rel="noopener">亚色网</a> </p>
+<p><a href="https://www.whichav.com/" target="_blank" rel="noopener"><strong>whichAV「台湾」</strong></a></p>
+<h2 id="综合论坛-经典社区网站"><a href="#综合论坛-经典社区网站" class="headerlink" title="综合论坛 经典社区网站"></a>综合论坛 经典社区网站</h2><hr>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=t66y" target="_blank" rel="noopener">草榴社区</a> </p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=sex8" target="_blank" rel="noopener">性吧</a> </p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=xp1024" target="_blank" rel="noopener">1024核工厂</a> </p>
+<p><a href="https://ixsq.a-aoi.xyz/cgi-bin/?getID=sexinsex" target="_blank" rel="noopener">SexInSex</a></p>
+<p> <a href="https://wuso.me/" target="_blank" rel="noopener"><strong>屋受論壇「台湾」</strong></a></p>
+<h2 id="海外精选-国外大站导航"><a href="#海外精选-国外大站导航" class="headerlink" title="海外精选 国外大站导航"></a>海外精选 国外大站导航</h2><hr>
+<p><a href="https://www.pornhub.com/" target="_blank" rel="noopener"><strong>PornHub</strong></a> </p>
+<p><a href="https://www.xvideos.com/" target="_blank" rel="noopener"><strong>XVIDEOS</strong></a> </p>
+<p><a href="https://xhamster.com/" target="_blank" rel="noopener">xHamster</a> </p>
+<p><a href="https://www.xnxx.com/" target="_blank" rel="noopener"><strong>XNXX</strong></a> </p>
+<p><a href="https://beeg.com/" target="_blank" rel="noopener"><strong>beeg.</strong></a> </p>
+<p><a href="https://spankbang.com/" target="_blank" rel="noopener"><strong>SpankBang</strong></a> </p>
+<p><a href="https://www.pornhd.com/" target="_blank" rel="noopener"><strong>PornHD</strong></a> </p>
+<p><a href="https://www.porn.com/" target="_blank" rel="noopener"><strong>PORN</strong></a></p>
+<h2 id="美图小说-图片小说同样精彩"><a href="#美图小说-图片小说同样精彩" class="headerlink" title="美图小说 图片小说同样精彩"></a>美图小说 图片小说同样精彩</h2><hr>
+<p><a href="https://fuskator.com/" target="_blank" rel="noopener"><strong>Fuskator 成人套图</strong></a> </p>
+<p><a href="https://babesource.com/" target="_blank" rel="noopener">BabeSource</a></p>
+<p> <a href="https://jjgirls.com/" target="_blank" rel="noopener"><strong>JJGirls</strong></a> </p>
+<p><a href="http://hhhbook.com/" target="_blank" rel="noopener"><strong>3H淫书</strong></a> </p>
+<p><a href="https://69story.com/" target="_blank" rel="noopener"><strong>69成人小说</strong></a></p>
+<p> <a href="http://canovel.com/" target="_blank" rel="noopener"><strong>CA情色小说</strong></a></p>
+<h2 id="特色站点-有点意思的网站"><a href="#特色站点-有点意思的网站" class="headerlink" title="特色站点 有点意思的网站"></a>特色站点 有点意思的网站</h2><hr>
+<p><a href="https://komica2.net/" target="_blank" rel="noopener">Komica2次元</a> </p>
+<p> <a href="https://javhd.com/" target="_blank" rel="noopener"><strong>JavHD 无码天堂</strong></a> </p>
+<p><a href="https://www.omegle.com/" target="_blank" rel="noopener">Omegle 随机聊天</a> </p>
+<p><a href="http://efukt.com/" target="_blank" rel="noopener">eFukt 搞笑色情</a> </p>
+<p><a href="https://cn.tubepornclassic.com/" target="_blank" rel="noopener">复古色情</a> </p>
+<p><a href="http://www.javlibrary.com/cn/" target="_blank" rel="noopener"><strong>AV资料库</strong></a></p>
+<p> <a href="https://www.pornmd.com/" target="_blank" rel="noopener"><strong>PornMD 成人搜索</strong></a></p>
+<h4 id="工具大全-你会用到的一些辅助工具"><a href="#工具大全-你会用到的一些辅助工具" class="headerlink" title="工具大全 你会用到的一些辅助工具"></a>工具大全 你会用到的一些辅助工具</h4><hr>
+<p><a href="http://hugoyzc.xyz/2020/03/12/BT%20%E7%A3%81%E5%8A%9B%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA/" target="_blank" rel="noopener">BT 磁力资源导航</a> </p>
+<p>© 2019  本站永久访问域名「<a href="https://hugoyzc.xyz」" target="_blank" rel="noopener">https://hugoyzc.xyz」</a></p>
+<p>声明：网址(URL)收集自互联网与本人无合作关系，本站不存储和制作任何内容。</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Hugo</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://hugoyzc.github.io/2020/05/09/A%E5%85%8D%E8%B4%B9%E7%9A%84%E6%88%90%E4%BA%BA%E7%BD%91%E7%AB%99%E5%8A%A0%E9%80%9F%E5%B7%A5%E5%85%B7/">https://hugoyzc.github.io/2020/05/09/A免费的成人网站加速工具/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://hugoyzc.github.io" target="_blank">Hugo</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://apps.kitsunebi.online/assets/images/icon.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.jpg" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"></nav></article></main><footer id="footer" style="background-image: url(https://icweiliimg1.pstatp.com/weili/bl/488819530964664434.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Hugo</div><div class="theme-info"><div class="powered-by"></div></div><img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png">
+<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener">粤ICP备14057991号</a> 
+<p><b>Hi, welcome to my <a href="https://hugoyzc,github.io/" target="_blank" rel="noopener">blog</a> 
+<br>
+<a href="https://gaoding.org/cart.php?gid=1" class="item" target="_blank" style="line-height: 28px;">
+<img src="https://gaoding.org/gaoding.png" class="ui popover" style="height: 20px;margin-bottom: -4px;margin-right: 3px;display: inline-block;" title="本页面由搞定云CDN提供加速"></a>
+</div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300,"opacity":0.7},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html><!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
