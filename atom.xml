@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hugoyzc.github.io/"/>
-  <updated>2020-06-05T05:58:36.970Z</updated>
+  <updated>2020-06-13T04:06:10.595Z</updated>
   <id>https://hugoyzc.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一行命令下载全网视频，这个命令太牛逼了！</title>
+    <link href="https://hugoyzc.github.io/2020/06/13/%E4%B8%80%E8%A1%8C%E5%91%BD%E4%BB%A4%E4%B8%8B%E8%BD%BD%E5%85%A8%E7%BD%91%E8%A7%86%E9%A2%91%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E5%A4%AA%E7%89%9B%E9%80%BC%E4%BA%86%EF%BC%81/"/>
+    <id>https://hugoyzc.github.io/2020/06/13/%E4%B8%80%E8%A1%8C%E5%91%BD%E4%BB%A4%E4%B8%8B%E8%BD%BD%E5%85%A8%E7%BD%91%E8%A7%86%E9%A2%91%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E5%A4%AA%E7%89%9B%E9%80%BC%E4%BA%86%EF%BC%81/</id>
+    <published>2020-06-13T03:57:57.000Z</published>
+    <updated>2020-06-13T04:06:10.595Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a><strong>Python</strong></h1></blockquote><p>相信大家有遇到这样的情况，在网站上看到一些不错的视频，想要下载下来，但是没有找到网站的下载入口。</p><p>虽然像优酷、爱奇艺、腾讯视频都有自己的客户端，但下载的视频都是它们专用格式，其它播放器无法播放。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/6ec5edc0fdd145dcba24d2f9681c22a2"></p><p>今天呢，<strong>Hugo</strong> 就给大家介绍一种高逼格的方法，只需要一行命令即可下载网站视频。</p><p>其实大家应该也不会陌生了，需要使用到的是编程软件Python，今天就向大家介绍一下Python的实际用途。很多人一听到编程可能就会感觉很难，其实不然，只需要安装Python环境，哪怕是小白也能轻松学会。</p><p>这款命令行工具叫<strong>You-Get</strong>，该工具基于一个Python的平台，所以我们需要先安装该平台。</p><h2 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a><strong>安装教程</strong></h2><p>1、下载安装Python，<strong>文末给大家提供了3.8.3版本</strong>，下载后直接运行打开，特别注意<strong>需要勾选界面下方Add Python 3.8 to PATH ，接着点击 Install Now</strong>。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/40aa13cecfc944c79c4f6226e04e904e"></p><p>2、Python安装完毕后，接着我们需要把You-Get工具通过该平台运行到我们的电脑。</p><p>3、右击左下角开始点击运行或按下键盘<strong>Win+R</strong>组合键，输入<strong>cmd</strong>后回车。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/192f6ae7d7de4d16b6f6820151416ab4"></p><p>4、输入命令并执行<strong>pip3 install you-get</strong>，如下图加载到100%即为成功。我们已经就将该工具安装到我们的电脑中，安装过程已经完毕，接下来是使用过程。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/8167c9373e60449dadf97eb71a1b1e18"></p><h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a><strong>使用教程</strong></h2><p>以上安装过程只需安装一次，之后就可以调用下载使用了，接下来是使用过程。</p><p>同样<strong>Win+R</strong>输入<strong>cmd</strong>进入命令窗口，输入<strong>you-get 视频地址</strong>并回车。</p><p>示例：<br>you-get <a href="https://www.bilibili.com/video/BV16Z4y1s7ho" target="_blank" rel="noopener">https://www.bilibili.com/video/BV16Z4y1s7ho</a></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/8fda16f9a7f9483ebd92ca9912a9eb83"></p><p>在粘贴视频下载的时候可以看到视频下载路径，即视频下载所在位置，当然也可以进行更改。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/031547795b37463bb7ffbce873d83e23"></p><p><strong>Hugo</strong> 测试了哔哩哔哩、优酷、腾讯视频都是可以下载的，根据官方介绍you-get支持的网页非常之多，包括大部分国内外主流媒体网站，除了可以主流视频网站，还可以下载音频、图片。</p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/4a7f281d011740c289fcf4b6ab11fcc9"></p><h2 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><strong>支持的网站</strong></h2><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/726a0fea583f49c9a92c6df4174f28f1"></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/0dba08a7c47b429bb4bb15c10b48ad57"></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/5ed57ab3172744608baa0e463d874718"></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/87ade3f0dc8247dc85541949edeee0d5"></p><p><img src="/" alt="img" class="lazyload" data-src="http://pb3.pstatp.com/large/pgc-image/c66be33963864286879c8c3351523104"></p><p>如果出现you-get 一段时间后无法下载视频？因为视频网站一直在更新，这时you-get也需要更新，输入代码<strong>pip3 install -u you-get</strong>即可更新工具。</p><blockquote><h1 id="源地址"><a href="#源地址" class="headerlink" title="源地址"></a><strong>源地址</strong></h1></blockquote><p>You-Get也还有很多命令行设置，大家可以进Github查看。</p><p><strong>Github项目地址：</strong><a href="https://github.com/soimort/you-get" target="_blank" rel="noopener">https://github.com/soimort/you-get</a></p><blockquote><h1 id="Python下载地址"><a href="#Python下载地址" class="headerlink" title="Python下载地址"></a><strong>Python下载地址</strong></h1></blockquote><p><a href="https://wwa.lanzous.com/b0de3qvpi" target="_blank" rel="noopener">https://wwa.lanzous.com/b0de3qvpi</a></p><p>密码:fm6g</p><blockquote><p><strong>原文链接</strong></p></blockquote><p> <a href="">一行命令下载全网视频，这个命令太牛逼了</a></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;h1 id=&quot;Python&quot;&gt;&lt;a href=&quot;#Python&quot; class=&quot;headerlink&quot; title=&quot;Python&quot;&gt;&lt;/a&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/h1&gt;&lt;/blockquote&gt;
+&lt;p&gt;相信大家有遇到这样的
+      
+    
+    </summary>
+    
+    
+      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
+    
+    
+      <category term="实用资源" scheme="https://hugoyzc.github.io/tags/%E5%AE%9E%E7%94%A8%E8%B5%84%E6%BA%90/"/>
+    
+      <category term="Python" scheme="https://hugoyzc.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>这几款软件简直好用到爆了！PDF合集来了</title>
@@ -547,36 +577,6 @@
       <category term="下载" scheme="https://hugoyzc.github.io/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="浏览器优化" scheme="https://hugoyzc.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%98%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一款简单易用的抠图神器：咔嚓！几步轻松搞定！</title>
-    <link href="https://hugoyzc.github.io/2020/03/28/%E4%B8%80%E6%AC%BE%E7%AE%80%E5%8D%95%E6%98%93%E7%94%A8%E7%9A%84%E6%8A%A0%E5%9B%BE%E7%A5%9E%E5%99%A8%EF%BC%9A%E5%92%94%E5%9A%93%EF%BC%81%E5%87%A0%E6%AD%A5%E8%BD%BB%E6%9D%BE%E6%90%9E%E5%AE%9A%EF%BC%81/"/>
-    <id>https://hugoyzc.github.io/2020/03/28/%E4%B8%80%E6%AC%BE%E7%AE%80%E5%8D%95%E6%98%93%E7%94%A8%E7%9A%84%E6%8A%A0%E5%9B%BE%E7%A5%9E%E5%99%A8%EF%BC%9A%E5%92%94%E5%9A%93%EF%BC%81%E5%87%A0%E6%AD%A5%E8%BD%BB%E6%9D%BE%E6%90%9E%E5%AE%9A%EF%BC%81/</id>
-    <published>2020-03-28T11:14:26.000Z</published>
-    <updated>2020-05-22T16:17:38.909Z</updated>
-    
-    <content type="html"><![CDATA[<p>说到抠图大家必然第一反应是PS，是的，照片处理没有任何一款软件的综合素质可以超越PS，就算有也只可能是Adobe Photoshop 2020。</p><p>虽然说综合素质比不过，挑一个单项出来比一下还是可以的嘛。比如有的软件就专注于抠图，并在行业里领先了！</p><p>!今天要推荐的这款神器，专注于抠图，名字叫做PhotoScissors，按照字面意思翻译，就是“照片剪刀”。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/2073671696214832bce9035a37031086"></p><p>当然当然不是像上图这样的剪刀，而是抠图，把画面中的一部分抠出来。</p><hr><blockquote><h1 id="基础篇"><a href="#基础篇" class="headerlink" title="基础篇"></a><strong>基础篇</strong></h1></blockquote><p>打开软件就有最基本的教程，绿色是前景，红色是背景。是个靓仔都知道红色部分肯定是要被删掉的。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/cf581027479649bdaedbe306e9d53c7f"></p><p>点击【查看教程】会跳转到官方给出的使用文档，不过是全英文，要配合翻译使用。</p><p>下面给大家演示一下最简单的抠图功能，随便打开一张图片软件会快速分析背景并删除背景抠出主体。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/4bba9298721941f9acbf42b7ad15a2ab"></p><p>当然，自动抠图可能会有一些小误差，手动调整一下即可（点开查看大图注释）。比如图中女星两腿之间的部分……</p><p>最后保存，就可以看到女星已经被抠出来了，总体来说效果还是可以的，对于普通人来说纯色背景的证件照换底肯定是够用的了。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/07dc402f47be4321b5283f2117ee37d5"></p><p>这只是最基本的抠图，但是如果仅仅是这样的抠图完全可以用国内的一些在线网站，真的没有必要还要找这样一款软件。</p><h1 id=""><a href="#" class="headerlink" title=""></a></h1><blockquote><h1 id="进阶篇"><a href="#进阶篇" class="headerlink" title="进阶篇"></a><strong>进阶篇</strong></h1></blockquote><p>来看看官网（<a href="https://photoscissors.com/tutorials?v=5）还给了哪些教程，使用Google翻译，个别字词略有偏差大家自己理解一下。" target="_blank" rel="noopener">https://photoscissors.com/tutorials?v=5）还给了哪些教程，使用Google翻译，个别字词略有偏差大家自己理解一下。</a></p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/fe65dee29ff9478db56d165e95711d9b"></p><p>总结一下，这些其实就是让你抠图抠的更精准处理出更精美的图片。精准抠图的一个典型的例子就是抠头发丝，相信很多人都遇到过这个问题。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/8fe8779d5f8040e1aa916f6c607a00b3"></p><p>这个效果肯定是不行的，就需要用到软件的一个叫做【透明抠图】的功能。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/93c5aac166f740f799de3e34ac97feda"></p><p>这样头发就抠出来了，大家看左侧原图的笔刷颜色就可以了，经过测试其实绿色和红色笔刷是完全多余的。</p><p>此外，透明抠图最NB的地方在于细节处理，众所周知，P图最重要的一定是细节。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/6ed8530abe314d21b169ade4ea68f78c"></p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p9.pstatp.com/large/pgc-image/3175f03aadc84576ab08af645bf2584b"></p><p>仔细看，玻璃球的背景你就会发现它是可以透过不同的背景的，这就是透明抠图。</p><p>除了人像，我们最多拍的就是风景，可能是动植物，山川大河等。这时候抠图就需要我们调节平滑，偏移，羽化等参数。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p3.pstatp.com/large/pgc-image/fc0a528705d84caca7f1e1eeaef36af4"></p><p>比如这只鸟，浑身都是不规则的毛，就需要把轮廓调的平滑一些，再调整偏移。依旧以人像为例，调节了平滑和偏移仔细看轮廓线是有一些变化的。</p><p><img src="/" alt="一款简单易用的抠图神器：咔嚓！几步轻松搞定！" class="lazyload" data-src="http://p1.pstatp.com/large/pgc-image/e2c73f7bca6f4a47bcd47cba7a7c5436"></p><p>主要的功能，就介绍到这，毕竟人家主打的也就是抠图，那些商品图以及和PS配合的遮罩什么的还是交给PS去做吧。</p><p>总体来说，这款软件工具属性很强，自动化能力也很强。如果你需要简单易学的抠图工具，不妨试试这款神器吧！对于参数调节，大家多使用使用，才能更加熟悉。</p><blockquote><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a><strong>下载地址</strong></h1></blockquote><p><strong>蓝奏云：</strong> <a href="https://www.lanzous.com/iaqljqh" target="_blank" rel="noopener">https://www.lanzous.com/iaqljqh</a></p><p>原文链接：  <a href="https://www.toutiao.com/i6809211567930868237/" target="_blank" rel="noopener">强力视频处理工具VideoProc，限时免费了</a></p><hr><p><img src="/" alt="" class="lazyload" data-src="13.jfif"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;说到抠图大家必然第一反应是PS，是的，照片处理没有任何一款软件的综合素质可以超越PS，就算有也只可能是Adobe Photoshop 2020。&lt;/p&gt;
-&lt;p&gt;虽然说综合素质比不过，挑一个单项出来比一下还是可以的嘛。比如有的软件就专注于抠图，并在行业里领先了！&lt;/p&gt;
-&lt;p
-      
-    
-    </summary>
-    
-    
-      <category term="PC" scheme="https://hugoyzc.github.io/categories/PC/"/>
-    
-    
-      <category term="PS" scheme="https://hugoyzc.github.io/tags/PS/"/>
-    
-      <category term="美化图片" scheme="https://hugoyzc.github.io/tags/%E7%BE%8E%E5%8C%96%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
